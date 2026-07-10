@@ -39,7 +39,7 @@ sticky: 99999
 | 锦云 | 6元 50G/月 | [注册](https://w2.whengdl.com/#/register?code=BIGc8qrQ) |
 | 极速云 | 15.99元 1200G/月 | [注册](https://tg.sintotgch.com/#/register?code=RENHYxqv) |
 | 山水云 | 7.33元 64G/月(年付) | [注册](https://ss2.byvvcsx.com/#/register?code=jkziWeb8) |
-| 秒秒云 | 14元 128G/月 | [注册](https://mdl3.mxjcbg.com/#/register?code=g3bq7bpK) |
+| 秒秒云 | 14元 128G/月 | [注册](https://m1.mouhiojl.com/#/register?code=g3bq7bpK) |
 | Edge-X | 16.8元 100G/月 | [注册](https://edge-invite.com/#/register?code=73ienU2h) |
 | 可达加速器 | 10元 100G/月 | [注册](https://1.mkd997.com/?page=register&code=5KnBzRqS) |
 | 迅达VPN | 15元 150G/月 | [注册](https://sulianproxy.com/register?code=lfITU4zy) |
@@ -479,7 +479,7 @@ Lumina（Lumina Airport）是一家主打高性价比、不限设备数量的多
 
 ### 21. 秒秒云
 
-秒秒云官网地址：[mxjcbg.com](https://mdl3.mxjcbg.com/#/register?code=g3bq7bpK)
+秒秒云官网地址：[m1.mouhiojl.com](https://m1.mouhiojl.com/#/register?code=g3bq7bpK)
 
 最便宜的订阅有 **14元 128G/月**。
 
@@ -496,7 +496,7 @@ Lumina（Lumina Airport）是一家主打高性价比、不限设备数量的多
 | 不限时100G | 100G永久 | ¥99/一次性 | 永久有效 |
 | 不限时300G | 300G永久 | ¥268/一次性 | 永久有效 |
 
-[👉 立即注册秒秒云](https://mdl3.mxjcbg.com/#/register?code=g3bq7bpK)
+[👉 立即注册秒秒云](https://m1.mouhiojl.com/#/register?code=g3bq7bpK)
 
 ---
 
