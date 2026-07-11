@@ -1,5 +1,5 @@
 ---
-title: 安卓科学上网教程：2026最新 Clash Meta for Android (Mihomo) 配置使用指南
+title: Clash Meta（Android）使用教程 · 订阅导入全流程
 date: 2026-03-29 10:40:00
 tags: [Clash Meta, Android, 科学上网, 机场推荐, 客户端教程, 软件下载教程, 翻墙, 科学上网教程]
 categories: [软件下载教程]

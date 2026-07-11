@@ -1,5 +1,5 @@
 ---
-title: Midjourney国内怎么用？2026最新国内访问与共享账号购买保姆级教程
+title: 2026年 Midjourney 使用教程（国内访问 + 订阅方法）
 date: 2026-03-01 12:00:00
 tags: [AI工具, 科学上网, 机场推荐, 翻墙, 科学上网教程, Midjourney, AI绘画, 作图提示词]
 categories: [AI工具]
