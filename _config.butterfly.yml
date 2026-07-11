@@ -1,4 +1,4 @@
-# --------------------------------------
+﻿# --------------------------------------
 # Hexo Butterfly Theme Configuration
 # If you have any questions, please refer to the documentation
 # Chinese: https://butterfly.js.org/
@@ -1064,7 +1064,7 @@ css_prefix: true
 inject:
   head:
     - |
-      <link rel="alternate" hreflang="zh-CN" href="https://clashmac.cn.com" />
+      <link rel="alternate" hreflang="zh-CN" href="https://clashmac.vip" />
       <style>
         /* Left sidebar navigation */
         @media screen and (min-width: 1300px) {
