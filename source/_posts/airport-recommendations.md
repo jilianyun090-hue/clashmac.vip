@@ -26,7 +26,7 @@ sticky: 99999
 | 速界 | 7.5元 50G/月(年付) | [注册](https://trevona.speed-world.cc/#/register?code=r7IOqoY7) |
 | 快狸 | 10元 30G/月(年付) | [注册](https://varnexa.kuailitttt.homes/#/register?code=G56QwHto) |
 | <font color="red">边界云</font> | 12.33元 50G/月(年付) | [注册](https://www.lvpn.cc/r/6UQDZT) |
-| 边缘节点 | 9元 45G/月(年付) | [注册](https://varnexa.bianyuanjiediantttt.sbs/#/register?code=Oy1wZvzJ) |
+| 边缘节点 | 9元 45G/月(年付) | [注册](https://zoio.edgenovaaff.cc/#/register?code=Oy1wZvzJ) |
 | Lumina | 10元 200G/月 | [注册](https://luminak.net/?token=lumina#/register?code=dCgHyjFi) |
 | 光速云 | 8.25元 59G/月 | [注册](https://kjlq01.gsyvipaff.cc/#/?code=b1OTkTeL) |
 | 星岛梦 | 16元 100G/月 | [注册](https://wuyou202001.xdmvipaff.cc/#/?code=olWCiAhj) |
@@ -203,7 +203,7 @@ sticky: 99999
 
 ### 8. 边缘节点
 
-边缘节点官网地址：[bianyuanjiediantttt.sbs](https://varnexa.bianyuanjiediantttt.sbs/#/register?code=Oy1wZvzJ)
+边缘节点官网地址：[edgenovaaff.cc](https://zoio.edgenovaaff.cc/#/register?code=Oy1wZvzJ)
 
 最便宜的订阅有 **9元 45G/月（限时年付，即108元/年）**。
 
@@ -215,7 +215,7 @@ sticky: 99999
 | **极界·标准套餐** | 120GB/月 | ¥25.00/月 | 不限速不限制设备数 | 日常主力首选，多周期优惠方案 |
 | **极界·进阶套餐** | 250GB/月 | ¥50.00/月 | 不限速不限制设备数 | 重度用户/多设备用户首选 |
 
-[👉 立即注册边缘节点](https://varnexa.bianyuanjiediantttt.sbs/#/register?code=Oy1wZvzJ)
+[👉 立即注册边缘节点](https://zoio.edgenovaaff.cc/#/register?code=Oy1wZvzJ)
 
 ---
 
