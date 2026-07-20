@@ -1,4 +1,4 @@
-﻿# Hexo Configuration
+# Hexo Configuration
 ## Docs: https://hexo.io/docs/configuration.html
 ## Source: https://github.com/hexojs/hexo/
 
@@ -104,10 +104,10 @@ theme: butterfly
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
   type: git
-  repo: https://github.com/amerdommi241-oss/.github.io.git
-  branch: main
-  name: amerdommi241-oss
-  email: amerdommi241-oss@example.com
+  repo: https://github.com/jilianyun090-hue/clashmac.cn.git
+  branch: gh-pages
+  name: jilianyun090-hue
+  email: jilianyun090-hue@example.com
 
 # hexo-admin plugin
 admin:
