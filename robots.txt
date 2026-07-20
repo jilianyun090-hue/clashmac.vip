@@ -1,7 +1,7 @@
-User-agent: *
+﻿User-agent: *
 Allow: /
 Disallow: /js/
 Disallow: /css/
 Disallow: /fonts/
 
-Sitemap: https://clashmac.cn.com/sitemap.xml
+Sitemap: https://clashmac.vip/sitemap.xml
