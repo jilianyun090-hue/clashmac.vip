@@ -37,7 +37,7 @@ description: "2026 手机科学上网指南：Android 与 iOS 双平台保姆级
 
 [!TIP]
 **还没有满意的节点？**
-我们强烈建议您参考本站的 [顶级高速机场推荐指南](https://clashmac.cn.com/2026/02/20/airport-recommendations/)，选择针对流媒体和日常使用深度优化的优质线路，确保 4K 视频秒开不卡顿。
+我们强烈建议您参考本站的 [顶级高速机场推荐指南](https://clashmac.vip/2026/02/20/airport-recommendations/)，选择针对流媒体和日常使用深度优化的优质线路，确保 4K 视频秒开不卡顿。
 
 
 

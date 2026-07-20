@@ -43,7 +43,7 @@ OpenClaw 可以被视为一个本地运行的 **AI 智能网关**：
 
 
 [!TIP]
-如果你是纯新手，建议先了解[科学上网基础知识](https://clashmac.cn.com/categories/%E7%A7%91%E5%AD%A6%E4%B8%8A%E7%BD%91%E7%9F%A5%E8%AF%86%E5%BA%93/)，确保网络环境通畅后并在继续。
+如果你是纯新手，建议先了解[科学上网基础知识](https://clashmac.vip/categories/%E7%A7%91%E5%AD%A6%E4%B8%8A%E7%BD%91%E7%9F%A5%E8%AF%86%E5%BA%93/)，确保网络环境通畅后并在继续。
 
 
 
@@ -86,7 +86,7 @@ Telegram 服务需要稳定的代理环境。请确保你的代理软件正常�
 
 
 
-* **软件参考**：[机场推荐与软件使用指南](https://clashmac.cn.com/2026/02/20/airport-recommendations/)。
+* **软件参考**：[机场推荐与软件使用指南](https://clashmac.vip/2026/02/20/airport-recommendations/)。
 
 
 
@@ -159,7 +159,7 @@ openclaw onboard --install-daemon
 
 
 
-* 若尚未注册，可参考：[Telegram 注册使用完全教程](https://clashmac.cn.com/2026/03/01/telegram-guide/)。
+* 若尚未注册，可参考：[Telegram 注册使用完全教程](https://clashmac.vip/2026/03/01/telegram-guide/)。
 
 
 
@@ -198,7 +198,7 @@ openclaw onboard --install-daemon
 
 
 [!NOTE]
-更多关于 DeepSeek 或 Gemini 的使用技巧，可参考：[Gemini 在中国使用指南](https://clashmac.cn.com/2026/02/20/gemini-in-china/)。
+更多关于 DeepSeek 或 Gemini 的使用技巧，可参考：[Gemini 在中国使用指南](https://clashmac.vip/2026/02/20/gemini-in-china/)。
 
 
 
