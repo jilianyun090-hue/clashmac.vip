@@ -104,7 +104,7 @@ theme: butterfly
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
   type: git
-  repo: https://github.com/jilianyun090-hue/clashmac.cn.git
+  repo: https://github.com/jilianyun090-hue/clashmac.vip.git
   branch: gh-pages
   name: jilianyun090-hue
   email: jilianyun090-hue@example.com
