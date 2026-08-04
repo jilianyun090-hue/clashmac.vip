@@ -13,7 +13,7 @@ case globalPageType
 
 - var isSubtitle = config.subtitle ? ' - ' + config.subtitle : ''
 - var cleanConfigTitle = config.title.includes(' | ') ? config.title.split(' | ')[0] : config.title
-- var tabTitle = globalPageType === 'home' || !pageTitle ? config.title + isSubtitle : pageTitle + ' - ' + cleanConfigTitle
+- var tabTitle = globalPageType === 'home' || !pageTitle ? cleanConfigTitle + isSubtitle : pageTitle + ' - ' + cleanConfigTitle
 - if (globalPageType === 'archive' && !page.tag && !page.category)
   - var archiveTitle = '文章归档'
   - if (page.year) archiveTitle = page.year + '年' + (page.month ? page.month + '月' : '') + archiveTitle

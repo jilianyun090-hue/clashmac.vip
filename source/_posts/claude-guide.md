@@ -11,7 +11,7 @@ Claude 是 Anthropic 公司推出的顶级 AI 助手，以**超长上下文理�
 
 
 
-## Claude 是什么？核心优势解析
+## 什么是 Claude？相比 ChatGPT 有什么核心优势？
 
 ### 🧠 Claude 的四大核心优势
 
@@ -60,7 +60,7 @@ Claude 3.5 Opus
 ---
 
 
-## 国内如何访问 Claude？
+## 国内如何注册 and 访问 Claude 官方版与镜像站？
 
 由于 Claude 官网（[claude.ai](https://claude.ai/)）在国内无法直接访问，有以下几种解决方案：
 
@@ -198,7 +198,7 @@ Claude 3.5 Opus
 ---
 
 
-## Claude vs ChatGPT：如何选择？
+## Claude 与 ChatGPT 哪个更适合你的工作？怎么选？
 
 
 
@@ -261,7 +261,7 @@ ChatGPT GPT-4o
 ---
 
 
-## Claude 使用技巧
+## 怎么让 Claude 的输出质量更高？实用 Prompt 提示词技巧
 
 ### 🎯 提升 Claude 输出质量的方法
 

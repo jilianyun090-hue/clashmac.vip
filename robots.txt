@@ -1,7 +1,75 @@
-﻿User-agent: *
+User-agent: *
 Allow: /
 Disallow: /js/
 Disallow: /css/
 Disallow: /fonts/
+
+# --- International AI & Search Crawlers ---
+# OpenAI (ChatGPT)
+User-agent: GPTBot
+User-agent: ChatGPT-User
+Allow: /
+
+# Google & Gemini
+User-agent: Googlebot
+User-agent: Googlebot-Image
+User-agent: Google-Extended
+Allow: /
+
+# Anthropic (Claude)
+User-agent: Anthropic-AI
+User-agent: Claude-Web
+User-agent: ClaudeBot
+Allow: /
+
+# Microsoft Bing & Copilot
+User-agent: Bingbot
+User-agent: AdIdxBot
+User-agent: BingPreview
+Allow: /
+
+# Perplexity AI
+User-agent: PerplexityBot
+Allow: /
+
+# Apple Intelligence
+User-agent: Applebot
+User-agent: Applebot-Extended
+Allow: /
+
+# Meta AI
+User-agent: MetaExternalAgent
+Allow: /
+
+# Other LLM Crawlers
+User-agent: Cohere-ai
+User-agent: Amazonbot
+Allow: /
+
+# --- Domestic AI & Search Crawlers ---
+# ByteDance & Doubao AI
+User-agent: Bytespider
+User-agent: Bytespider-AI
+Allow: /
+
+# DeepSeek
+User-agent: DeepSeek-Bot
+Allow: /
+
+# Baidu & Ernie Bot
+User-agent: Baiduspider
+Allow: /
+
+# Alibaba, Quark & Tongyi Qianwen
+User-agent: YisouSpider
+Allow: /
+
+# Sogou Search
+User-agent: Sogou web spider
+Allow: /
+
+# 360 Search & 360 Brain
+User-agent: 360Spider
+Allow: /
 
 Sitemap: https://clashmac.vip/sitemap.xml

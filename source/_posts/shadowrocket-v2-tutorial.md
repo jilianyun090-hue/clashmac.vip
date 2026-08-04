@@ -7,7 +7,7 @@ keywords: Shadowrocket教程, 小火箭下载, iOS科学上网, 机场订阅导�
 description: "Shadowrocket，俗称\"小火箭\"，是 iOS 平台上用户群体最大、上手最简单的代理软件。即使是完全的新手，也能在 3 分钟内完成配置。 什么是 Shadowrocket (小火箭)？ Shadowrocket（俗称小火箭） 是一款运行于 iOS / iPadOS 平台的老牌代理客户端，"
 ---
 
-## 什么是 Shadowrocket (小火箭)？
+**Shadowrocket (小火箭) 客户端怎么下载？订阅链接怎么导入？** Shadowrocket (小火箭) 是目前最流行且高效的科学上网工具之一，支持 VLESS、Reality、Hysteria2、Shadowsocks 等最新翻墙协议。**本文提供 2026 最新 Shadowrocket (小火箭) 官方安全下载地址、保姆级图文订阅配置教程，以及常见连不上网的排查方法**，帮您轻松搞定全平台设备的科学上网配置，实现高速稳定的网络访问。
 
 **Shadowrocket（俗称小火箭）** 是一款运行于 **iOS / iPadOS** 平台的老牌代理客户端，因稳定、兼容性强而广受欢迎。支持 SS、SSR、VMess（V2Ray）、VLESS（Xray）、Trojan、Hysteria、TUIC 等多种协议。
 
@@ -15,7 +15,7 @@ description: "Shadowrocket，俗称\"小火箭\"，是 iOS 平台上用户群体
 
 ---
 
-## 📥 如何获取与下载
+## 📥 Shadowrocket 怎么下载？官方安全下载渠道汇总
 
 由于国内 App Store 的政策问题，您需要使用 **外区 Apple ID**（如美区、港区或日区 ID）进行购买下载：
 
@@ -25,7 +25,7 @@ description: "Shadowrocket，俗称\"小火箭\"，是 iOS 平台上用户群体
 
 ---
 
-## ⚙️ 添加节点（推荐订阅方式）
+## ⚙️ Shadowrocket 订阅链接如何导入？快速上手配置指南
 
 ### 获取订阅地址
 
@@ -56,7 +56,7 @@ description: "Shadowrocket，俗称\"小火箭\"，是 iOS 平台上用户群体
 
 ---
 
-## 🔗 节点测试与启用代理
+## 🚀 Shadowrocket 怎么开启代理连接和测试节点？
 
 ### 连通性测试
 
@@ -74,7 +74,7 @@ description: "Shadowrocket，俗称\"小火箭\"，是 iOS 平台上用户群体
 
 ---
 
-## 💡 全局路由模式说明（重点）
+## 💡 什么是全局/规则/直连路由模式？怎么选择？
 
 路径：**设置 → 全局路由**，推荐选择：**配置**
 
