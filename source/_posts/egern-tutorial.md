@@ -1,6 +1,7 @@
 ---
 title: Egern 使用教程 · iOS 平台配置全流程
 date: 2026-03-29 11:00:00
+updated: 2026-08-29 17:00:00
 tags: [Egern, iOS翻墙, 科学上网, 机场推荐, 客户端教程, 软件下载教程, 翻墙, 科学上网教程]
 categories: [软件下载教程]
 keywords: Egern教程, Egern使用教程, iOS科学上网, 现代代理, 翻墙APP
@@ -63,3 +64,16 @@ description: "Egern 是针对现代网络优化的 iOS 代理利器，性能卓�
 [< 返回软件下载合集](/2026/03/29/software/) | [🔥 查看 2026 稳定机场推荐](/2026/02/20/airport-recommendations/)
 
 </center>
+
+---
+
+## 相关推荐
+
+- [返回软件下载合集](/2026/03/29/software/) - 查看其他客户端
+- [Shadowrocket使用教程](/2026/03/29/shadowrocket-v2-tutorial/) - iOS经典客户端
+- [Quantumult X教程](/2026/03/29/quantumult-x-tutorial/) - iOS高级客户端
+- [2026年机场推荐](/2026/02/20/airport-recommendations/) - 获取稳定节点
+
+---
+
+**本文最后更新**：2026年8月29日

@@ -1,6 +1,7 @@
 ---
 title: ClashMi 使用教程 · 订阅导入与配置全流程
 date: 2026-03-29 10:30:00
+updated: 2026-08-29 17:00:00
 tags: [Clash Mi, 科学上网, 机场推荐, 客户端教程, 软件下载教程, 翻墙, 科学上网教程]
 categories: [软件下载教程]
 keywords: Clash Mi教程, Clash Mi下载, Mihomo内核, 科学上网, 代理配置
@@ -102,3 +103,16 @@ description: "Clash Mi 是一款专注于高效分流与内核增强的桌面代
 [< 返回软件下载合集](/2026/03/29/software/) | [🔥 查看 2026 稳定机场推荐](/2026/02/20/airport-recommendations/)
 
 </center>
+
+---
+
+## 相关推荐
+
+- [返回软件下载合集](/2026/03/29/software/) - 查看其他客户端
+- [Clash Verge Rev教程](/2026/03/29/clash-verge-rev-tutorial/) - 另一款优秀Clash客户端
+- [Clash停更迁移指南](/2026/08/24/clash-to-mihomo-migration-2026/) - Mihomo核心介绍
+- [2026年机场推荐](/2026/02/20/airport-recommendations/) - 获取稳定节点
+
+---
+
+**本文最后更新**：2026年8月29日

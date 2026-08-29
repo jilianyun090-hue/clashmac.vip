@@ -1,6 +1,7 @@
 ---
 title: Clash Verge Rev 使用教程 · Windows/Mac 图文指南
 date: 2026-03-29 10:16:32
+updated: 2026-08-29 17:00:00
 tags: [Clash Verge Rev, 科学上网, 机场推荐, 客户端教程, 软件下载教程, 翻墙, 科学上网教程]
 categories: [软件下载教程]
 keywords: Clash Verge Rev, Clash Verge Rev下载, Clash使用教程, 科学上网, 翻墙教程, Mihomo内核
@@ -84,3 +85,16 @@ description: "Clash Verge Rev 是 Clash Verge 的延续版本，是一款基于 
 [< 返回软件下载合集](/2026/03/29/software/) | [🔥 查看 2026 稳定机场推荐](/2026/02/20/airport-recommendations/)
 
 </center>
+
+---
+
+## 相关推荐
+
+- [返回软件下载合集](/2026/03/29/software/) - 查看其他客户端
+- [2026年机场推荐](/2026/02/20/airport-recommendations/) - 获取稳定节点
+- [机场连不上怎么办？](/2026/08/25/airport-connection-troubleshooting/) - 常见问题排查
+- [Clash停更迁移指南](/2026/08/24/clash-to-mihomo-migration-2026/) - Mihomo使用教程
+
+---
+
+**本文最后更新**：2026年8月29日

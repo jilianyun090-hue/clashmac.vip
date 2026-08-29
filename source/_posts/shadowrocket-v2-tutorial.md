@@ -1,6 +1,7 @@
 ---
 title: Shadowrocket（小火箭）使用教程 · iOS 翻墙配置指南
 date: 2026-03-29 10:50:00
+updated: 2026-08-29 17:00:00
 tags: [Shadowrocket, 小火箭, iOS翻墙, 科学上网, 客户端教程, 软件下载教程, 机场推荐, 翻墙, 科学上网教程]
 categories: [软件下载教程]
 keywords: Shadowrocket教程, 小火箭下载, iOS科学上网, 机场订阅导入, 翻墙APP
@@ -93,3 +94,16 @@ description: "Shadowrocket，俗称\"小火箭\"，是 iOS 平台上用户群体
 [< 返回软件下载合集](/2026/03/29/software/) | [🔥 查看 2026 稳定机场推荐](/2026/02/20/airport-recommendations/)
 
 </center>
+
+---
+
+## 相关推荐
+
+- [Shadowrocket完整使用教程](/2026/08/25/shadowrocket-complete-guide-2026/) - 从入门到精通
+- [返回软件下载合集](/2026/03/29/software/) - 查看其他客户端
+- [2026年机场推荐](/2026/02/20/airport-recommendations/) - 获取稳定节点
+- [Quantumult X教程](/2026/03/29/quantumult-x-tutorial/) - iOS高级客户端
+
+---
+
+**本文最后更新**：2026年8月29日

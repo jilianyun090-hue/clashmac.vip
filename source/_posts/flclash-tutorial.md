@@ -1,6 +1,7 @@
 ---
 title: FlClash 使用教程 · Android/桌面端图文指南
 date: 2026-03-29 10:25:00
+updated: 2026-08-29 17:00:00
 tags: [Flclash, 科学上网, 机场推荐, 客户端教程, 软件下载教程, 翻墙, 科学上网教程]
 categories: [软件下载教程]
 keywords: Flclash教程, Flclash下载, Flutter代理客户端, 科学上网, 跨平台翻墙
@@ -80,3 +81,16 @@ description: "Flclash 是一款基于 Flutter 的全新跨平台 Clash 客户端
 [< 返回软件下载合集](/2026/03/29/software/) | [🔥 查看 2026 稳定机场推荐](/2026/02/20/airport-recommendations/)
 
 </center>
+
+---
+
+## 相关推荐
+
+- [返回软件下载合集](/2026/03/29/software/) - 查看其他客户端
+- [Clash Verge Rev教程](/2026/03/29/clash-verge-rev-tutorial/) - 桌面端首选
+- [2026年机场推荐](/2026/02/20/airport-recommendations/) - 获取稳定节点
+- [机场连不上怎么办？](/2026/08/25/airport-connection-troubleshooting/) - 常见问题排查
+
+---
+
+**本文最后更新**：2026年8月29日

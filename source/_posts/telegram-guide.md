@@ -1,6 +1,7 @@
 ---
 title: Telegram（纸飞机）注册与使用教程 · 2026年完整版
 date: 2026-03-01 12:00:00
+updated: 2026-08-29 17:00:00
 tags: [实用工具, 科学上网, 机场推荐, 翻墙, 科学上网教程, 科学上网知识库, Telegram, 电报新手, 纸飞机教程]
 categories: [科学上网知识库]
 description: "2026年 Telegram（电报）注册使用完全教程。Telegram（电报，俗称”飞机”）是全球用户量超 10 亿的即时通讯工具，以极致隐私保护、超大文件传输、丰富的频道群组生态著称。本文带你从零开始注册并上手 Telegram。 Telegram 是什么？"
@@ -296,3 +297,15 @@ Telegram 是翻墙后最值得安装的应用之一。配合[科学上网机场]
 
 
 📌 相关阅读：[接码平台推荐（注册用虚拟号码）](/2026/03/01/sms-verification-platforms/) | [机场推荐](/categories/%E6%9C%BA%E5%9C%BA%E6%8E%A8%E8%8D%90/) | [Telegram 搜索技巧](/2026/03/01/telegram-search-guide/)
+
+---
+
+## 相关推荐
+
+- [Telegram搜索指南](/2026/03/01/telegram-search-guide/) - 极搜使用教程
+- [接码平台推荐](/2026/03/01/sms-verification-platforms/) - 注册Telegram必备
+- [2026年机场推荐](/2026/02/20/airport-recommendations/) - 稳定翻墙访问Telegram
+
+---
+
+**本文最后更新**：2026年8月29日

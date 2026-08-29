@@ -1,6 +1,7 @@
 ---
-title: 2026年翻墙软件推荐：全平台客户端下载与使用教程
+title: software
 date: 2026-03-29 10:00:00
+updated: 2026-08-29 17:00:00
 tags: [默认分类, 科学上网, 机场推荐, 翻墙, 科学上网教程, Clash Verge, Shadowrocket, 软件下载, 软件下载教程]
 categories: [软件下载教程]
 description: "2026年最新翻墙软件下载与配置教程：Clash Verge、v2rayN、Shadowrocket(小火箭)、Quantumult X等全平台科学上网客户端一网打尽。最新安全下载地址、图文使用教程，支持Windows、macOS、Android、iOS全平台，小白也能轻松上手！"
@@ -208,3 +209,21 @@ sticky: 1000
 ---
 
 <center>所有教程全部图文并茂，请按照教程步骤操作即可顺利科学上网！如果还没有合适的节点，可以前往查看我们的 <a href="/2026/02/20/airport-recommendations/" style="font-weight:bold; color:#ff5722;">🔥 2026年稳定高速机场推荐</a></center>
+
+---
+
+## 相关推荐
+
+### 机场推荐
+- [2026年机场推荐完整榜单](/2026/02/20/airport-recommendations/) - 30+稳定机场详细评测
+- [如何选择机场？避坑指南](/2026/03/01/how-to-choose-airport/) - 新手必读
+- [学生党机场推荐](/2026/04/25/best-budget-airport-for-students/) - 低价高性价比
+
+### 使用问题
+- [机场连不上怎么办？](/2026/08/25/airport-connection-troubleshooting/) - 8种原因完整排查
+- [Clash停更后怎么办？](/2026/08/24/clash-to-mihomo-migration-2026/) - Mihomo迁移指南
+- [机场vs传统VPN](/2026/08/24/airport-vs-traditional-vpn-2026/) - 深度对比分析
+
+---
+
+**本文最后更新**：2026年8月29日

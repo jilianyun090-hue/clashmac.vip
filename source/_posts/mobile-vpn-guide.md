@@ -1,6 +1,7 @@
 ---
 title: 手机翻墙指南：2026年 iOS / Android 最佳翻墙方案
 date: 2026-03-01 12:00:00
+updated: 2026-08-29 17:00:00
 tags: [科学上网知识库, 科学上网, 机场推荐, 翻墙, 科学上网教程, 手机翻墙, 苹果iOS梯子, 安卓梯子]
 categories: [科学上网知识库]
 description: "2026 手机科学上网指南：Android 与 iOS 双平台保姆级教程。在移动互联网时代，手机已经成为我们获取信息、社交和娱乐的核心工具。无论是为了查阅学术论文、观看 YouTube 高清视频，回还是在 Instagram 上分享生活，掌握手机端的科学上网技能已成为一项基础需求。"
@@ -93,3 +94,25 @@ description: "2026 手机科学上网指南：Android 与 iOS 双平台保姆级
 ---
 
 希望这份指南能为您开启自由网络的大门。如果您在操作中遇到任何问题，欢迎参考我们的 [机场与 VPN 深度对比](/2026/02/17/airport-vs-vpn/) 进一步了解技术原理。
+
+---
+
+## 相关推荐
+
+### iOS教程
+- [Shadowrocket使用教程](/2026/03/29/shadowrocket-v2-tutorial/) - 小火箭详细配置
+- [Shadowrocket完整指南](/2026/08/25/shadowrocket-complete-guide-2026/) - 从入门到精通
+- [Quantumult X教程](/2026/03/29/quantumult-x-tutorial/) - 高级用户首选
+
+### Android教程
+- [Clash Meta教程](/2026/03/29/clash-meta-android-tutorial/) - 安卓首选
+- [Nekobox教程](/2026/03/29/nekobox-tutorial/) - 猫盒使用指南
+
+### 机场推荐
+- [2026年机场推荐](/2026/02/20/airport-recommendations/) - 全平台稳定机场
+- [学生党机场推荐](/2026/04/25/best-budget-airport-for-students/) - 低价高性价比
+- [如何选择机场？](/2026/03/01/how-to-choose-airport/) - 新手避坑指南
+
+---
+
+**本文最后更新**：2026年8月29日

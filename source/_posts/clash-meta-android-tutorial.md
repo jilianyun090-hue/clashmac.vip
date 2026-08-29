@@ -1,6 +1,7 @@
 ---
 title: Clash Meta（Android）使用教程 · 订阅导入全流程
 date: 2026-03-29 10:40:00
+updated: 2026-08-29 17:00:00
 tags: [Clash Meta, Android, 科学上网, 机场推荐, 客户端教程, 软件下载教程, 翻墙, 科学上网教程]
 categories: [软件下载教程]
 keywords: Clash Meta Android教程, Mihomo Android教程, 安卓翻墙, 科学上网, 机场订阅
@@ -92,3 +93,16 @@ description: "Clash Meta for Android 是目前安卓端最强大的 Clash 客户
 [< 返回软件下载合集](/2026/03/29/software/) | [🔥 查看 2026 稳定机场推荐](/2026/02/20/airport-recommendations/)
 
 </center>
+
+---
+
+## 相关推荐
+
+- [返回软件下载合集](/2026/03/29/software/) - 查看其他客户端
+- [2026年机场推荐](/2026/02/20/airport-recommendations/) - 获取稳定节点
+- [Nekobox使用教程](/2026/03/29/nekobox-tutorial/) - 另一款优秀安卓客户端
+- [手机翻墙指南](/2026/03/01/mobile-vpn-guide/) - iOS/Android完整方案
+
+---
+
+**本文最后更新**：2026年8月29日

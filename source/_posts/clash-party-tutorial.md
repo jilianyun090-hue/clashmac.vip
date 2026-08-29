@@ -1,6 +1,7 @@
 ---
 title: Clash Party 使用教程 · 图文入门指南
 date: 2026-03-29 10:35:00
+updated: 2026-08-29 17:00:00
 tags: [Clash Party, 科学上网, 机场推荐, 客户端教程, 软件下载教程, 翻墙, 科学上网教程]
 categories: [软件下载教程]
 keywords: Clash Party教程, Clash Party下载, 科学上网, 代理配置, 翻墙教程
@@ -66,3 +67,16 @@ description: "Clash Party 是稳定可靠的 Clash 分支工具，适合追求�
 [< 返回软件下载合集](/2026/03/29/software/) | [🔥 查看 2026 稳定机场推荐](/2026/02/20/airport-recommendations/)
 
 </center>
+
+---
+
+## 相关推荐
+
+- [返回软件下载合集](/2026/03/29/software/) - 查看其他客户端
+- [Clash Verge Rev教程](/2026/03/29/clash-verge-rev-tutorial/) - 功能更强大的选择
+- [2026年机场推荐](/2026/02/20/airport-recommendations/) - 获取稳定节点
+- [机场连不上怎么办？](/2026/08/25/airport-connection-troubleshooting/) - 常见问题排查
+
+---
+
+**本文最后更新**：2026年8月29日

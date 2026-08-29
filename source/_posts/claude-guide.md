@@ -1,6 +1,7 @@
 ---
 title: 2026年国内使用 Claude 的方法（无需科学上网）
 date: 2026-03-01 12:00:00
+updated: 2026-08-29 17:00:00
 tags: [AI工具, 科学上网, 机场推荐, 翻墙, 科学上网教程, Claude 3, 账号解封, 防封号]
 categories: [AI工具]
 description: "Claude 使用指南【2026年更新】：国内镜像站 + 共享账号全攻略。Claude 是 Anthropic 公司推出的顶级 AI 助手，以超长上下文理解（支持 200K tokens）、代码能力出众、逻辑推理严谨著称，被大量程序员、内容创作者和学术研究人员视为 ChatGPT 的最佳替代品。"
@@ -304,3 +305,16 @@ Claude 是目前综合能力最强的 AI 之一，特别是在代码、长文本
 
 
 如果你也在使用 [ChatGPT](/2026/03/01/chatgpt-mirrors-guide/)，不妨同时试用 Claude，不同模型各有所长，搭配使用效率翻倍！
+
+---
+
+## 相关推荐
+
+- [ChatGPT镜像站推荐](/2026/03/01/chatgpt-mirrors-guide/) - 国内直连ChatGPT
+- [Gemini使用教程](/2026/03/01/gemini-in-china/) - Google AI工具
+- [Grok 4使用教程](/2026/03/01/grok-4-tutorial/) - X平台AI助手
+- [2026年机场推荐](/2026/02/20/airport-recommendations/) - 支持AI工具的机场
+
+---
+
+**本文最后更新**：2026年8月29日
