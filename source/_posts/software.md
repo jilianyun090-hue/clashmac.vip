@@ -1,10 +1,11 @@
 ---
 title: software
 date: 2026-03-29 10:00:00
-updated: 2026-08-29 17:00:00
-tags: [默认分类, 科学上网, 机场推荐, 翻墙, 科学上网教程, Clash Verge, Shadowrocket, 软件下载, 软件下载教程]
+updated: 2026-08-29 18:00:00
+tags: [默认分类, 科学上网, 机场推荐, 翻墙, 科学上网教程, Clash Verge, Shadowrocket, 软件下载, 软件下载教程, 梯子工具, 梯子软件]
 categories: [软件下载教程]
-description: "2026年最新翻墙软件下载与配置教程：Clash Verge、v2rayN、Shadowrocket(小火箭)、Quantumult X等全平台科学上网客户端一网打尽。最新安全下载地址、图文使用教程，支持Windows、macOS、Android、iOS全平台，小白也能轻松上手！"
+keywords: 梯子工具, 梯子下载, 梯子软件, 翻墙软件, 翻墙工具, 科学上网工具, Clash下载, Shadowrocket下载, v2rayN下载, 小火箭下载
+description: "2026年最新梯子工具下载与配置教程：Clash Verge、v2rayN、Shadowrocket(小火箭)、Quantumult X等全平台梯子软件一网打尽。最新安全下载地址、图文使用教程，支持Windows、macOS、Android、iOS全平台，小白也能轻松上手！"
 sticky: 1000
 ---
 
