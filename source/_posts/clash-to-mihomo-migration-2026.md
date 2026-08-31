@@ -78,7 +78,7 @@ description: "Clash原版已于2023年停止维护，Mihomo（原Clash Meta）�
 - [官方GitHub Releases](https://github.com/clash-verge-rev/clash-verge-rev/releases)
 - 选择 `Clash.Verge_x.x.x_x64-setup.exe` 下载安装包
 
-**快速上手教程：** [Clash Verge Rev完整使用教程](/2026/03/18/clash-verge-rev-tutorial/)
+**快速上手教程：** [Clash Verge Rev完整使用教程](/2026/03/29/clash-verge-rev-tutorial/)
 
 ### macOS：ClashX Pro / Clash Verge（二选一）
 
@@ -279,8 +279,8 @@ Clash的停更并不是终结，而是新时代的开始。Mihomo的出现证明
 
 ## 相关阅读
 
-- [Clash Verge Rev完整使用教程](/2026/03/18/clash-verge-rev-tutorial/)
-- [FlClash安卓使用教程](/2026/05/10/flclash-tutorial/)
+- [Clash Verge Rev完整使用教程](/2026/03/29/clash-verge-rev-tutorial/)
+- [FlClash安卓使用教程](/2026/03/29/flclash-tutorial/)
 - [2026年机场推荐](/2026/02/20/airport-recommendations/)
 - [Shadowrocket（小火箭）配置教程](/2026/03/25/shadowrocket-tutorial/)
 
