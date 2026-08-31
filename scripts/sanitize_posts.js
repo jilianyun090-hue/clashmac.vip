@@ -12,7 +12,7 @@ function sanitize(filePath) {
     let body = parts.slice(2).join('---').trim();
 
     // Extract fields
-    const titleMatch = frontMatter.match(/title:\s*"?(.*?)"?\n/);
+    const titleMatch = frontMatter.match(/title:\s*(.+?)(?=\n[a-z]+:|$)/s);
     const dateMatch = frontMatter.match(/date:\s*([^\n]+)/);
     const updatedMatch = frontMatter.match(/updated:\s*([^\n]+)/);
     const stickyMatch = frontMatter.match(/sticky:\s*([^\n]+)/);
@@ -82,7 +82,7 @@ function sanitize(filePath) {
     // Reconstruct Front Matter - preserving all important fields
     const fmLines = [
         '---',
-        `title: ${(titleMatch ? titleMatch[1] : fileName.replace('.md', '')).replace(/"/g, '')}`,
+        `title: ${titleMatch ? titleMatch[1].trim() : fileName.replace('.md', '')}`,
         `date: ${dateMatch ? dateMatch[1].trim() : '2026-03-01 12:00:00'}`
     ];
     
