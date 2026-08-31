@@ -116,7 +116,7 @@ FlClash是基于Flutter开发的跨平台客户端，2026年迅速崛起成为An
 
 **下载：** [备份仓库](https://github.com/MetaCubeX/ClashMetaForAndroid/releases)
 
-**使用教程：** [FlClash安卓使用教程](/2026/05/10/flclash-tutorial/)
+**使用教程：** [FlClash安卓使用教程](/2026/03/29/flclash-tutorial/)
 
 ### iOS：Stash / Shadowrocket
 
