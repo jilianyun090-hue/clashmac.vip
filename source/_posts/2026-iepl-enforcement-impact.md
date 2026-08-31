@@ -184,7 +184,7 @@ description: "2026年4月广东电信IEPL专线整改事件全解析：影响范
 ## 相关阅读
 
 - [2026年机场推荐｜便宜稳定机场精选](/2026/02/20/airport-recommendations/)
-- [IEPL、IPLC、BGP专线区别详解](/2026/03/15/airport-routes-difference/)
+- [IEPL、IPLC、BGP专线区别详解](/2026/03/01/airport-routes-difference/)
 - [如何判断机场是否要跑路？7个预警信号](/2026/03/01/how-to-choose-airport/)
 
 ## 参考来源

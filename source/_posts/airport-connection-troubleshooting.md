@@ -584,7 +584,7 @@ WiFi连不上 → 试试手机热点
 ## 相关阅读
 
 - [2026年机场推荐](/2026/02/20/airport-recommendations/)
-- [如何判断机场是否要跑路](/2026/09/23/airport-warning-signs/)
+- [如何判断机场是否要跑路](/2026/03/01/how-to-choose-airport/)
 - [机场vs传统VPN对比](/2026/08/24/airport-vs-traditional-vpn-2026/)
 - [Clash Verge Rev使用教程](/2026/03/29/clash-verge-rev-tutorial/)
 - [Shadowrocket完整教程](/2026/08/25/shadowrocket-complete-guide-2026/)

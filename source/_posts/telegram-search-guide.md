@@ -63,7 +63,7 @@ Telegram 的内置搜索功能存在几个明显局限：
 
 
 
-注册时如果 +86 手机号收不到验证码，可使用[接码平台](/categories/%E6%8E%A5%E7%A0%81%E5%B9%B3%E5%8F%B0/)获取虚拟号码（推荐 [5SIM](https://5sim.net/)）。
+注册时如果 +86 手机号收不到验证码，可使用[接码平台](/2026/03/01/sms-verification-platforms/)获取虚拟号码（推荐 [5SIM](https://5sim.net/)）。
 
 
 ---

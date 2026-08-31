@@ -282,7 +282,7 @@ Clash的停更并不是终结，而是新时代的开始。Mihomo的出现证明
 - [Clash Verge Rev完整使用教程](/2026/03/29/clash-verge-rev-tutorial/)
 - [FlClash安卓使用教程](/2026/03/29/flclash-tutorial/)
 - [2026年机场推荐](/2026/02/20/airport-recommendations/)
-- [Shadowrocket（小火箭）配置教程](/2026/03/25/shadowrocket-tutorial/)
+- [Shadowrocket（小火箭）配置教程](/2026/03/29/shadowrocket-v2-tutorial/)
 
 ## 参考资料
 

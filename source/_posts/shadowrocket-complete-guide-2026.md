@@ -84,7 +84,7 @@ Shadowrocket在中国区App Store已被下架，只能从美区App Store下载�
    - 付款方式选择"无"
    - 填写美国地址（随便填，网上生成的即可）
 
-**详细图文教程：** [如何注册美区Apple ID](/2026/03/25/us-apple-id-guide/)
+**详细图文教程：** 如何注册美区Apple ID
 
 ---
 
@@ -627,9 +627,9 @@ https://raw.githubusercontent.com/h2y/Shadowrocket-ADBlock-Rules/master/sr_top50
 ## 相关阅读
 
 - [2026年机场推荐](/2026/02/20/airport-recommendations/)
-- [iOS翻墙完整方案](/2026/03/25/ios-vpn-complete-guide/)
+- [iOS翻墙完整方案](/2026/03/01/mobile-vpn-guide/)
 - [Quantumult X教程](/2026/03/29/quantumult-x-tutorial/)
-- [美区Apple ID注册教程](/2026/03/25/us-apple-id-guide/)
+- 美区Apple ID注册教程
 - [机场vs传统VPN对比](/2026/08/24/airport-vs-traditional-vpn-2026/)
 
 ---
