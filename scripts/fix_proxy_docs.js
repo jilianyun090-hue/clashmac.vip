@@ -73,6 +73,10 @@ function processFile(filepath) {
     // 8. Clean any residual stray broken format blocks
     content = content.replace(/<p>\]\(&#x2F;serve.*?\)<\/p>/g, '');
 
+    // 9. Sync Footer Custom Text (Friend Links)
+    const NEW_FOOTER_TEXT = `<div class="footer_custom_text"><div style=\\"margin-bottom: 10px;\\">友情链接：<a href=\\"https://clash-jichang.com\\" target=\\"_blank\\" style=\\"margin: 0 10px; color: inherit; text-decoration: none;\\">道一博客</a> | <a href=\\"https://jichang365.com\\" target=\\"_blank\\" style=\\"margin: 0 10px; color: inherit; text-decoration: none;\\">jichang365.com</a> | <a href=\\"https://jichang-go.com\\" target=\\"_blank\\" style=\\"margin: 0 10px; color: inherit; text-decoration: none;\\">jichang-go.com</a> | <a href=\\"https://vpnstuijian.net\\" target=\\"_blank\\" style=\\"margin: 0 10px; color: inherit; text-decoration: none;\\">vpnstuijian.net</a> | <a href=\\"https://yzrztop.com\\" target=\\"_blank\\" style=\\"margin: 0 10px; color: inherit; text-decoration: none;\\">yzrztop.com</a> | <a href=\\"https://vpnstuijian.com\\" target=\\"_blank\\" style=\\"margin: 0 10px; color: inherit; text-decoration: none;\\">vpnstuijian.com</a> | <a href=\\"https://nodehub168.com/\\" target=\\"_blank\\" style=\\"margin: 0 10px; color: inherit; text-decoration: none;\\">nodehub168.com</a></div>&copy; 2026 August | <a href=\\"/about/\\">关于我们</a> | <a href=\\"https://t.me/JIAN6688\\" target=\\"_blank\\">商务合作</a></div>`;
+    content = content.replace(/<div class="footer_custom_text">[\s\S]*?<\/div><\/div><\/footer>/, NEW_FOOTER_TEXT + '</div></footer>');
+
     fs.writeFileSync(filepath, content, 'utf8');
 }
 
