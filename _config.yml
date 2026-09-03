@@ -3,8 +3,8 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: 2026机场推荐 | 便宜机场VPN推荐与梯子推荐 · Clash科学上网教程
-subtitle: '便宜稳定IEPL专线机场测评 · Clash翻墙教程 · Netflix/ChatGPT解锁指南'
+title: 机场推荐与梯子VPN推荐
+subtitle: '2026便宜稳定机场测评·科学上网教程'
 description: '2026年最新高性价比机场推荐：精选极连云、光速云、飞猫云等IEPL/IPLC专线机场，最低8元/月起，稳定解锁Netflix、Disney+、ChatGPT等平台。提供Clash Verge、Shadowrocket等主流翻墙客户端下载教程，持续更新，拒绝跑路踩坑。'
 keywords: '机场推荐, 2026机场, IEPL专线机场, 高性价比机场, 便宜稳定机场, 翻墙VPN推荐, 科学上网教程, Clash教程, 稳定机场推荐, Netflix解锁, ChatGPT翻墙, 梯子推荐, 小火箭教程, V2Ray配置, 便宜机场VPN推荐'
 author: August
@@ -103,11 +103,13 @@ theme: butterfly
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
-  type: git
-  repo: https://github.com/jilianyun090-hue/clashmac.vip.git
-  branch: gh-pages
-  name: jilianyun090-hue
-  email: jilianyun090-hue@example.com
+  - type: git
+    repo: https://github.com/jilianyun090-hue/clashmac.vip.git
+    branch: gh-pages
+    name: jilianyun090-hue
+    email: jilianyun090-hue@example.com
+  - type: cjh_bing_url_submitter
+  - type: cjh_baidu_url_submitter
 
 # hexo-admin plugin
 admin:
@@ -119,3 +121,23 @@ sitemap:
   rel: false
   tags: true
   categories: true
+
+# URL提交到搜索引擎 (自动提交到Bing/Baidu/Google)
+hexo_submit_urls_to_search_engine:
+  submit_condition: count
+  count: 10 # 提交最新的10条链接
+  period: 900
+  google: 0 # 不提交Google（需要特殊配置）
+  bing: 1 # 提交到Bing
+  baidu: 1 # 提交到百度
+  txt_path: submit_urls.txt
+  baidu_host: https://clashmac.vip
+  baidu_token: your_baidu_token # 请替换为你的百度推送token
+  bing_host: https://clashmac.vip
+  bing_token: 12a9889fbf3e4ca29d6272a042c1dc73
+  google_host: https://clashmac.vip
+  google_key_file: google.json
+  google_proxy: 0
+  replace: 0
+  find_what:
+  replace_with:
