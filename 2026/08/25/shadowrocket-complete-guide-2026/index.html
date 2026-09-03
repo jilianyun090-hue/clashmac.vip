@@ -1,0 +1,663 @@
+<!DOCTYPE html><html lang="zh-CN" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0,viewport-fit=cover"><title>Shadowrocket完整使用教程 | 小火箭配置指南（2026最新版） - 机场推荐与梯子VPN推荐</title><meta name="author" content="August"><meta name="copyright" content="August"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="#ffffff"><meta name="description" content="Shadowrocket（小火箭）完整使用教程：从美区ID获取、App下载到机场订阅导入、规则配置、高级功能全覆盖。2026年最新iOS翻墙指南，20个常见问题解答。">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Shadowrocket完整使用教程 | 小火箭配置指南（2026最新版）">
+<meta property="og:url" content="https://clashmac.vip/2026/08/25/shadowrocket-complete-guide-2026/">
+<meta property="og:site_name" content="机场推荐与梯子VPN推荐">
+<meta property="og:description" content="Shadowrocket（小火箭）完整使用教程：从美区ID获取、App下载到机场订阅导入、规则配置、高级功能全覆盖。2026年最新iOS翻墙指南，20个常见问题解答。">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="https://clashmac.vip/img/butterfly-icon.png">
+<meta property="article:published_time" content="2026-08-25T08:00:00.000Z">
+<meta property="article:modified_time" content="2026-08-25T08:00:00.000Z">
+<meta property="article:author" content="August">
+<meta property="article:tag" content="科学上网">
+<meta property="article:tag" content="机场推荐">
+<meta property="article:tag" content="翻墙">
+<meta property="article:tag" content="科学上网教程">
+<meta property="article:tag" content="客户端教程">
+<meta property="article:tag" content="iOS翻墙">
+<meta property="article:tag" content="Shadowrocket">
+<meta property="article:tag" content="小火箭">
+<meta property="article:tag" content="iPhone翻墙">
+<meta property="article:tag" content="Shadowrocket教程">
+<meta property="article:tag" content="苹果翻墙">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://clashmac.vip/img/butterfly-icon.png"><script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "Shadowrocket完整使用教程 | 小火箭配置指南（2026最新版）",
+  "url": "https://clashmac.vip/2026/08/25/shadowrocket-complete-guide-2026/",
+  "image": "https://clashmac.vip/img/butterfly-icon.png",
+  "datePublished": "2026-08-25T08:00:00.000Z",
+  "dateModified": "2026-08-25T08:00:00.000Z",
+  "author": [
+    {
+      "@type": "Person",
+      "name": "August",
+      "url": "https://clashmac.vip"
+    }
+  ]
+}</script><link rel="shortcut icon" href="/img/favicon.png"><link rel="canonical" href="https://clashmac.vip/2026/08/25/shadowrocket-complete-guide-2026/"><link rel="preconnect" href="//cdn.jsdelivr.net"/><link rel="preconnect" href="//busuanzi.ibruce.info"/><link rel="stylesheet" href="/css/index.css?v=5.5.4"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@7.1.0/css/all.min.css"><script>
+    (() => {
+      
+    const saveToLocal = {
+      set: (key, value, ttl) => {
+        if (!ttl) return
+        const expiry = Date.now() + ttl * 86400000
+        localStorage.setItem(key, JSON.stringify({ value, expiry }))
+      },
+      get: key => {
+        const itemStr = localStorage.getItem(key)
+        if (!itemStr) return undefined
+        const { value, expiry } = JSON.parse(itemStr)
+        if (Date.now() > expiry) {
+          localStorage.removeItem(key)
+          return undefined
+        }
+        return value
+      }
+    }
+
+    window.btf = {
+      saveToLocal,
+      getScript: (url, attr = {}) => new Promise((resolve, reject) => {
+        const script = document.createElement('script')
+        script.src = url
+        script.async = true
+        Object.entries(attr).forEach(([key, val]) => script.setAttribute(key, val))
+        script.onload = script.onreadystatechange = () => {
+          if (!script.readyState || /loaded|complete/.test(script.readyState)) resolve()
+        }
+        script.onerror = reject
+        document.head.appendChild(script)
+      }),
+      getCSS: (url, id) => new Promise((resolve, reject) => {
+        const link = document.createElement('link')
+        link.rel = 'stylesheet'
+        link.href = url
+        if (id) link.id = id
+        link.onload = link.onreadystatechange = () => {
+          if (!link.readyState || /loaded|complete/.test(link.readyState)) resolve()
+        }
+        link.onerror = reject
+        document.head.appendChild(link)
+      }),
+      addGlobalFn: (key, fn, name = false, parent = window) => {
+        if (!false && key.startsWith('pjax')) return
+        const globalFn = parent.globalFn || {}
+        globalFn[key] = globalFn[key] || {}
+        globalFn[key][name || Object.keys(globalFn[key]).length] = fn
+        parent.globalFn = globalFn
+      }
+    }
+  
+      
+      const activateDarkMode = () => {
+        document.documentElement.setAttribute('data-theme', 'dark')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#0d0d0d')
+        }
+      }
+      const activateLightMode = () => {
+        document.documentElement.setAttribute('data-theme', 'light')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#ffffff')
+        }
+      }
+
+      btf.activateDarkMode = activateDarkMode
+      btf.activateLightMode = activateLightMode
+
+      const theme = saveToLocal.get('theme')
+    
+          theme === 'dark' ? activateDarkMode() : theme === 'light' ? activateLightMode() : null
+        
+      
+      const asideStatus = saveToLocal.get('aside-status')
+      if (asideStatus !== undefined) {
+        document.documentElement.classList.toggle('hide-aside', asideStatus === 'hide')
+      }
+    
+      
+    const detectApple = () => {
+      if (/iPad|iPhone|iPod|Macintosh/.test(navigator.userAgent)) {
+        document.documentElement.classList.add('apple')
+      }
+    }
+    detectApple()
+  
+    })()
+  </script><script>const GLOBAL_CONFIG = {
+  root: '/',
+  algolia: undefined,
+  localSearch: undefined,
+  translate: undefined,
+  highlight: {"plugin":"highlight.js","highlightCopy":true,"highlightLang":true,"highlightHeightLimit":false,"highlightFullpage":false,"highlightMacStyle":false},
+  copy: {
+    success: '复制成功',
+    error: '复制失败',
+    noSupport: '浏览器不支持'
+  },
+  relativeDate: {
+    homepage: false,
+    post: false
+  },
+  runtime: '',
+  dateSuffix: {
+    just: '刚刚',
+    min: '分钟前',
+    hour: '小时前',
+    day: '天前',
+    month: '个月前'
+  },
+  copyright: undefined,
+  lightbox: 'null',
+  Snackbar: undefined,
+  infinitegrid: {
+    js: 'https://cdn.jsdelivr.net/npm/@egjs/infinitegrid@4.13.0/dist/infinitegrid.min.js',
+    buttonText: '加载更多'
+  },
+  isPhotoFigcaption: false,
+  islazyloadPlugin: false,
+  isAnchor: false,
+  percent: {
+    toc: true,
+    rightside: false,
+  },
+  autoDarkmode: false
+}</script><script id="config-diff">var GLOBAL_CONFIG_SITE = {
+  title: 'Shadowrocket完整使用教程 | 小火箭配置指南（2026最新版）',
+  isHighlightShrink: false,
+  isToc: true,
+  pageType: 'post'
+}</script><link rel="alternate" hreflang="zh-CN" href="https://clashmac.vip" />
+<style>
+  /* Left sidebar navigation */
+  @media screen and (min-width: 1300px) {
+    .aside-content.left-sidebar {
+      display: block !important;
+    }
+  }
+  /* Ensure ad widget appears above recent posts */
+  .sticky_layout {
+    display: flex;
+    flex-direction: column;
+  }
+  .sticky_layout .card-widget.ads-wrap {
+    order: -1 !important;
+  }
+  .sticky_layout .card-widget.card-recent-post {
+    order: 1 !important;
+  }
+</style>
+<meta name="generator" content="Hexo 7.3.0"></head><body><div id="sidebar"><div id="menu-mask"></div><div id="sidebar-menus"><div class="avatar-img text-center"><img src="/img/butterfly-icon.png" onerror="this.onerror=null;this.src='/img/friend_404.gif'" alt="avatar"/></div><div class="site-data text-center"><a href="/archives/"><div class="headline">文章</div><div class="length-num">54</div></a><a href="/tags/"><div class="headline">标签</div><div class="length-num">207</div></a><a href="/categories/"><div class="headline">分类</div><div class="length-num">8</div></a></div><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 首页</span></a></div><div class="menus_item"><a class="site-page" href="/2026/02/20/airport-recommendations/"><i class="fa-fw fas fa-plane"></i><span> 机场推荐导航</span></a></div><div class="menus_item"><a class="site-page" href="/2026/03/29/software/"><i class="fa-fw fas fa-download"></i><span> 软件下载教程</span></a></div><div class="menus_item"><a class="site-page" href="/categories/%E7%A7%91%E5%AD%A6%E4%B8%8A%E7%BD%91%E7%9F%A5%E8%AF%86%E5%BA%93/"><i class="fa-fw fas fa-book"></i><span> 科学上网知识库</span></a></div><div class="menus_item"><a class="site-page" href="/categories/AI%E5%B7%A5%E5%85%B7/"><i class="fa-fw fas fa-robot"></i><span> AI工具</span></a></div><div class="menus_item"><a class="site-page" href="/categories/%E6%B5%81%E5%AA%92%E4%BD%93%E4%B8%93%E5%8C%BA/"><i class="fa-fw fas fa-play-circle"></i><span> 流媒体专区</span></a></div></div></div></div><div class="post" id="body-wrap"><header class="not-top-img" id="page-header"><nav id="nav"><span id="blog-info"><a class="nav-site-title" href="/"><span class="site-name">机场推荐与梯子VPN推荐</span></a><a class="nav-page-title" href="/"><span class="site-name">Shadowrocket完整使用教程 | 小火箭配置指南（2026最新版）</span><span class="site-name"><i class="fa-solid fa-circle-arrow-left"></i><span>  返回首页</span></span></a></span><div id="menus"><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 首页</span></a></div><div class="menus_item"><a class="site-page" href="/2026/02/20/airport-recommendations/"><i class="fa-fw fas fa-plane"></i><span> 机场推荐导航</span></a></div><div class="menus_item"><a class="site-page" href="/2026/03/29/software/"><i class="fa-fw fas fa-download"></i><span> 软件下载教程</span></a></div><div class="menus_item"><a class="site-page" href="/categories/%E7%A7%91%E5%AD%A6%E4%B8%8A%E7%BD%91%E7%9F%A5%E8%AF%86%E5%BA%93/"><i class="fa-fw fas fa-book"></i><span> 科学上网知识库</span></a></div><div class="menus_item"><a class="site-page" href="/categories/AI%E5%B7%A5%E5%85%B7/"><i class="fa-fw fas fa-robot"></i><span> AI工具</span></a></div><div class="menus_item"><a class="site-page" href="/categories/%E6%B5%81%E5%AA%92%E4%BD%93%E4%B8%93%E5%8C%BA/"><i class="fa-fw fas fa-play-circle"></i><span> 流媒体专区</span></a></div></div><div id="toggle-menu"><span class="site-page"><i class="fas fa-bars fa-fw"></i></span></div></div></nav></header><main class="layout" id="content-inner"><div id="post"><div id="post-info"><h1 class="post-title">Shadowrocket完整使用教程 | 小火箭配置指南（2026最新版）</h1><div id="post-meta"><div class="meta-firstline"><span class="post-meta-date"><i class="far fa-calendar-alt fa-fw post-meta-icon"></i><span class="post-meta-label">发表于</span><time class="post-meta-date-created" datetime="2026-08-25T08:00:00.000Z" title="发表于 2026-08-25 16:00:00">2026-08-25</time><span class="post-meta-separator">|</span><i class="fas fa-history fa-fw post-meta-icon"></i><span class="post-meta-label">更新于</span><time class="post-meta-date-updated" datetime="2026-08-25T08:00:00.000Z" title="更新于 2026-08-25 16:00:00">2026-08-25</time></span><span class="post-meta-categories"><span class="post-meta-separator">|</span><i class="fas fa-inbox fa-fw post-meta-icon"></i><a class="post-meta-categories" href="/categories/%E5%AE%A2%E6%88%B7%E7%AB%AF%E6%95%99%E7%A8%8B/">客户端教程</a></span></div><div class="meta-secondline"><span class="post-meta-separator">|</span><span class="post-meta-pv-cv" id="" data-flag-title=""><i class="far fa-eye fa-fw post-meta-icon"></i><span class="post-meta-label">浏览量:</span><span id="busuanzi_value_page_pv"><i class="fa-solid fa-spinner fa-spin"></i></span></span></div></div></div><article class="container post-content" id="article-container"><p>Shadowrocket（小火箭）是iOS平台最强大、最受欢迎的科学上网工具。如果你刚买了iPhone或iPad，想要翻墙访问YouTube、ChatGPT、Netflix，那么Shadowrocket绝对是最佳选择。</p>
+<p>本文将从零开始，手把手教你如何使用Shadowrocket，即使是完全小白也能轻松上手。</p>
+<span id="more"></span>
+
+<h2 id="Shadowrocket（小火箭）是什么？"><a href="#Shadowrocket（小火箭）是什么？" class="headerlink" title="Shadowrocket（小火箭）是什么？"></a>Shadowrocket（小火箭）是什么？</h2><h3 id="基本介绍"><a href="#基本介绍" class="headerlink" title="基本介绍"></a>基本介绍</h3><p><strong>Shadowrocket</strong> 是iOS平台上的一款代理客户端，俗称”小火箭”（因为图标是一个火箭🚀）。</p>
+<p><strong>核心功能：</strong></p>
+<ul>
+<li>支持多种协议（Shadowsocks、V2Ray、Trojan、Hysteria等）</li>
+<li>智能分流（国内直连，国外走代理）</li>
+<li>规则自定义（屏蔽广告、特定网站走代理）</li>
+<li>性能优异（速度快、耗电低）</li>
+</ul>
+<p><strong>为什么选择Shadowrocket？</strong></p>
+<p>✅ <strong>兼容性强</strong> - 支持几乎所有机场订阅<br>✅ <strong>配置灵活</strong> - 高级用户可深度定制<br>✅ <strong>性能优异</strong> - 速度快、稳定性好<br>✅ <strong>界面友好</strong> - 新手也能快速上手<br>✅ <strong>一次购买</strong> - 永久使用，无需订阅</p>
+<hr>
+<h2 id="第一步：获取美区Apple-ID"><a href="#第一步：获取美区Apple-ID" class="headerlink" title="第一步：获取美区Apple ID"></a>第一步：获取美区Apple ID</h2><h3 id="为什么需要美区Apple-ID？"><a href="#为什么需要美区Apple-ID？" class="headerlink" title="为什么需要美区Apple ID？"></a>为什么需要美区Apple ID？</h3><p>Shadowrocket在中国区App Store已被下架，只能从美区App Store下载。</p>
+<h3 id="方案A：购买现成的美区ID（推荐新手）"><a href="#方案A：购买现成的美区ID（推荐新手）" class="headerlink" title="方案A：购买现成的美区ID（推荐新手）"></a>方案A：购买现成的美区ID（推荐新手）</h3><p><strong>优点：</strong> 简单快捷，5分钟搞定<br><strong>缺点：</strong> 需要花费5-10元</p>
+<p><strong>购买渠道：</strong></p>
+<ol>
+<li><strong>淘宝/拼多多</strong> - 搜索”美区Apple ID”</li>
+<li><strong>闲鱼</strong> - 搜索”美区账号”</li>
+<li><strong>专业网站</strong> - 如独享号等</li>
+</ol>
+<p><strong>价格参考：</strong></p>
+<ul>
+<li>共享账号（只能下载App）：2-5元</li>
+<li>独享账号（可以改密码）：10-20元</li>
+</ul>
+<p><strong>⚠️ 重要提示：</strong></p>
+<ul>
+<li>不要在”设置-Apple ID”中登录购买的账号</li>
+<li>只在App Store中登录</li>
+<li>下载完Shadowrocket后立即退出</li>
+</ul>
+<hr>
+<h3 id="方案B：自己注册美区ID（免费但麻烦）"><a href="#方案B：自己注册美区ID（免费但麻烦）" class="headerlink" title="方案B：自己注册美区ID（免费但麻烦）"></a>方案B：自己注册美区ID（免费但麻烦）</h3><p><strong>步骤：</strong></p>
+<ol>
+<li><p><strong>准备材料</strong></p>
+<ul>
+<li>一个从未注册过Apple ID的邮箱</li>
+<li>美国地址生成器（Google搜索”US address generator”）</li>
+</ul>
+</li>
+<li><p><strong>注册流程</strong></p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">1. 打开 https://appleid.apple.com</span><br><span class="line">2. 点击&quot;创建您的Apple ID&quot;</span><br><span class="line">3. 填写信息（国家/地区选择&quot;美国&quot;）</span><br><span class="line">4. 验证邮箱</span><br><span class="line">5. 完成注册</span><br></pre></td></tr></table></figure>
+</li>
+<li><p><strong>配置支付方式</strong></p>
+<ul>
+<li>付款方式选择”无”</li>
+<li>填写美国地址（随便填，网上生成的即可）</li>
+</ul>
+</li>
+</ol>
+<p><strong>详细图文教程：</strong> 如何注册美区Apple ID</p>
+<hr>
+<h2 id="第二步：下载Shadowrocket"><a href="#第二步：下载Shadowrocket" class="headerlink" title="第二步：下载Shadowrocket"></a>第二步：下载Shadowrocket</h2><h3 id="下载流程"><a href="#下载流程" class="headerlink" title="下载流程"></a>下载流程</h3><ol>
+<li><p><strong>退出中国区账号</strong></p>
+<ul>
+<li>打开App Store</li>
+<li>点击右上角头像</li>
+<li>拉到最底部，点击”退出登录”</li>
+</ul>
+</li>
+<li><p><strong>登录美区账号</strong></p>
+<ul>
+<li>在App Store搜索框搜索”Shadowrocket”</li>
+<li>点击登录，输入美区账号和密码</li>
+</ul>
+</li>
+<li><p><strong>购买并下载</strong></p>
+<ul>
+<li>Shadowrocket价格：$2.99（约20元人民币）</li>
+<li>点击购买（需要绑定付款方式）</li>
+<li>下载到手机</li>
+</ul>
+</li>
+<li><p><strong>退出美区账号</strong></p>
+<ul>
+<li>下载完成后，退出美区账号</li>
+<li>重新登录自己的中国区账号</li>
+</ul>
+</li>
+</ol>
+<p><strong>⚠️ 注意事项：</strong></p>
+<ul>
+<li>不要在”设置”中登录美区账号</li>
+<li>只在App Store中登录</li>
+<li>下载完立即退出</li>
+</ul>
+<hr>
+<h2 id="第三步：购买机场订阅"><a href="#第三步：购买机场订阅" class="headerlink" title="第三步：购买机场订阅"></a>第三步：购买机场订阅</h2><p>Shadowrocket只是一个客户端工具，还需要配合机场服务才能翻墙。</p>
+<h3 id="推荐机场"><a href="#推荐机场" class="headerlink" title="推荐机场"></a>推荐机场</h3><p>根据Shadowrocket用户反馈，以下机场兼容性最好：</p>
+<h4 id="🥇-极连云-8元起"><a href="#🥇-极连云-8元起" class="headerlink" title="🥇 极连云 - 8元起"></a>🥇 极连云 - 8元起</h4><p><strong>官网：</strong> <a target="_blank" rel="noopener" href="https://haozevpn.jlyvipaff.com/#/?code=KUKfOY13">立即注册</a></p>
+<p><strong>推荐理由：</strong></p>
+<ul>
+<li>✅ 完美支持Shadowrocket</li>
+<li>✅ IEPL专线，速度快</li>
+<li>✅ 一键导入订阅</li>
+<li>✅ 8元起，性价比高</li>
+</ul>
+<hr>
+<h4 id="🥈-云图-25元起"><a href="#🥈-云图-25元起" class="headerlink" title="🥈 云图 - 25元起"></a>🥈 云图 - 25元起</h4><p><strong>官网：</strong> <a target="_blank" rel="noopener" href="https://vip.ytjcok.org/#/register?code=qPHQtI9a">立即注册</a><br><strong>优惠码：</strong> <code>yt88</code> 享8折</p>
+<p><strong>推荐理由：</strong></p>
+<ul>
+<li>✅ 金融级专线</li>
+<li>✅ 99%可用率</li>
+<li>✅ 流媒体全解锁</li>
+<li>✅ 适合Shadowrocket重度用户</li>
+</ul>
+<hr>
+<h4 id="🥉-光年梯-7-42元起"><a href="#🥉-光年梯-7-42元起" class="headerlink" title="🥉 光年梯 - 7.42元起"></a>🥉 光年梯 - 7.42元起</h4><p><strong>官网：</strong> <a target="_blank" rel="noopener" href="https://gnt001.gntvipaff.cc/#/?code=j1ufpE44">立即注册</a></p>
+<p><strong>推荐理由：</strong></p>
+<ul>
+<li>✅ 年付89元，性价比之王</li>
+<li>✅ 老牌稳定</li>
+<li>✅ Shadowrocket兼容性好</li>
+</ul>
+<p><strong>查看更多机场推荐：</strong> <a href="/2026/02/20/airport-recommendations/">2026年机场推荐</a></p>
+<hr>
+<h2 id="第四步：导入机场订阅"><a href="#第四步：导入机场订阅" class="headerlink" title="第四步：导入机场订阅"></a>第四步：导入机场订阅</h2><p>有3种方法导入订阅，推荐方法1（最简单）。</p>
+<h3 id="方法1：一键订阅导入（推荐）"><a href="#方法1：一键订阅导入（推荐）" class="headerlink" title="方法1：一键订阅导入（推荐）"></a>方法1：一键订阅导入（推荐）</h3><p><strong>步骤：</strong></p>
+<ol>
+<li><p><strong>获取订阅链接</strong></p>
+<ul>
+<li>登录机场官网</li>
+<li>找到”订阅”或”Shadowrocket订阅”</li>
+<li>复制订阅链接（https://开头的一串URL）</li>
+</ul>
+</li>
+<li><p><strong>在Shadowrocket中导入</strong></p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">1. 打开Shadowrocket</span><br><span class="line">2. 点击右上角&quot;+&quot;</span><br><span class="line">3. 选择&quot;类型&quot; → &quot;Subscribe&quot;</span><br><span class="line">4. 粘贴订阅链接到&quot;URL&quot;</span><br><span class="line">5. 点击&quot;完成&quot;</span><br></pre></td></tr></table></figure>
+</li>
+<li><p><strong>更新订阅</strong></p>
+<ul>
+<li>返回首页</li>
+<li>向下拉刷新</li>
+<li>等待节点列表加载</li>
+</ul>
+</li>
+</ol>
+<p><strong>✅ 完成！</strong> 现在你应该能看到一堆节点了。</p>
+<hr>
+<h3 id="方法2：扫描二维码导入"><a href="#方法2：扫描二维码导入" class="headerlink" title="方法2：扫描二维码导入"></a>方法2：扫描二维码导入</h3><p><strong>步骤：</strong></p>
+<ol>
+<li>机场官网找到”Shadowrocket订阅二维码”</li>
+<li>打开Shadowrocket，点击左上角扫描图标</li>
+<li>扫描二维码</li>
+<li>自动导入节点</li>
+</ol>
+<hr>
+<h3 id="方法3：手动添加节点"><a href="#方法3：手动添加节点" class="headerlink" title="方法3：手动添加节点"></a>方法3：手动添加节点</h3><p>如果机场没有订阅功能，只提供了单个节点，可以手动添加：</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line">1. 打开Shadowrocket</span><br><span class="line">2. 点击右上角&quot;+&quot;</span><br><span class="line">3. 选择&quot;类型&quot;（Shadowsocks/Vmess/Trojan等）</span><br><span class="line">4. 填写服务器信息：</span><br><span class="line">   - 地址（服务器IP或域名）</span><br><span class="line">   - 端口</span><br><span class="line">   - 密码/UUID</span><br><span class="line">   - 加密方式</span><br><span class="line">5. 点击&quot;完成&quot;</span><br></pre></td></tr></table></figure>
+
+<hr>
+<h2 id="第五步：连接并开始使用"><a href="#第五步：连接并开始使用" class="headerlink" title="第五步：连接并开始使用"></a>第五步：连接并开始使用</h2><h3 id="基本连接"><a href="#基本连接" class="headerlink" title="基本连接"></a>基本连接</h3><ol>
+<li><p><strong>选择节点</strong></p>
+<ul>
+<li>在首页节点列表中</li>
+<li>点击一个节点（建议选香港或日本）</li>
+<li>右边会出现黄点（表示已选中）</li>
+</ul>
+</li>
+<li><p><strong>开启连接</strong></p>
+<ul>
+<li>点击顶部的”未连接”开关</li>
+<li>首次使用会提示”添加VPN配置”</li>
+<li>点击”允许”，输入手机密码</li>
+<li>看到顶部状态栏出现VPN图标 = 连接成功</li>
+</ul>
+</li>
+<li><p><strong>测试是否成功</strong></p>
+<ul>
+<li>打开Safari浏览器</li>
+<li>访问 <a target="_blank" rel="noopener" href="https://www.google.com">https://www.google.com</a></li>
+<li>能打开 = 成功翻墙！</li>
+</ul>
+</li>
+</ol>
+<hr>
+<h3 id="连接模式选择"><a href="#连接模式选择" class="headerlink" title="连接模式选择"></a>连接模式选择</h3><p>Shadowrocket有3种连接模式：</p>
+<table>
+<thead>
+<tr>
+<th>模式</th>
+<th>说明</th>
+<th>适用场景</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><strong>配置</strong></td>
+<td>按照规则分流（推荐）</td>
+<td>日常使用</td>
+</tr>
+<tr>
+<td><strong>全局路由</strong></td>
+<td>所有流量走代理</td>
+<td>特殊需求</td>
+</tr>
+<tr>
+<td><strong>直连</strong></td>
+<td>不使用代理</td>
+<td>临时关闭</td>
+</tr>
+</tbody></table>
+<p><strong>推荐设置：</strong> 保持”配置”模式即可。</p>
+<hr>
+<h2 id="进阶功能：规则配置"><a href="#进阶功能：规则配置" class="headerlink" title="进阶功能：规则配置"></a>进阶功能：规则配置</h2><h3 id="什么是规则？"><a href="#什么是规则？" class="headerlink" title="什么是规则？"></a>什么是规则？</h3><p>规则决定哪些网站走代理，哪些直连。</p>
+<p><strong>默认规则：</strong></p>
+<ul>
+<li>国内网站：直连（不走代理）</li>
+<li>国外网站：代理</li>
+<li>广告：拦截</li>
+</ul>
+<h3 id="导入常用规则"><a href="#导入常用规则" class="headerlink" title="导入常用规则"></a>导入常用规则</h3><p><strong>推荐规则：</strong></p>
+<ol>
+<li><p><strong>Lhie1规则（最全面）</strong></p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">https://raw.githubusercontent.com/Lhie1/Rules/master/Surge/Surge.conf</span><br></pre></td></tr></table></figure>
+</li>
+<li><p><strong>黑白名单规则（简单）</strong></p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">https://raw.githubusercontent.com/h2y/Shadowrocket-ADBlock-Rules/master/sr_top500_banlist_ad.conf</span><br></pre></td></tr></table></figure>
+
+</li>
+</ol>
+<p><strong>导入方法：</strong></p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">1. Shadowrocket首页 → 点击&quot;配置&quot;</span><br><span class="line">2. 点击右上角&quot;+&quot;</span><br><span class="line">3. 粘贴规则链接</span><br><span class="line">4. 点击&quot;下载&quot;</span><br><span class="line">5. 选择刚下载的规则，使用</span><br></pre></td></tr></table></figure>
+
+<hr>
+<h3 id="自定义规则"><a href="#自定义规则" class="headerlink" title="自定义规则"></a>自定义规则</h3><p><strong>场景1：让某个网站走代理</strong></p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">1. 首页 → 点击&quot;配置&quot;</span><br><span class="line">2. 选择当前规则，点击右边的&quot;i&quot;</span><br><span class="line">3. 点击&quot;规则&quot;</span><br><span class="line">4. 右上角&quot;+&quot; → &quot;Domain&quot;</span><br><span class="line">5. 输入域名（如 twitter.com）</span><br><span class="line">6. 策略选择&quot;PROXY&quot;</span><br><span class="line">7. 保存</span><br></pre></td></tr></table></figure>
+
+<p><strong>场景2：屏蔽广告网站</strong></p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">1. 规则类型选&quot;Domain&quot;</span><br><span class="line">2. 输入广告域名</span><br><span class="line">3. 策略选择&quot;REJECT&quot;</span><br></pre></td></tr></table></figure>
+
+<hr>
+<h2 id="高级功能"><a href="#高级功能" class="headerlink" title="高级功能"></a>高级功能</h2><h3 id="1-延迟测试"><a href="#1-延迟测试" class="headerlink" title="1. 延迟测试"></a>1. 延迟测试</h3><p><strong>功能：</strong> 测试所有节点的延迟，选择最快的</p>
+<p><strong>操作：</strong></p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">1. 首页 → 点击&quot;连通性测试&quot;</span><br><span class="line">2. 等待测试完成</span><br><span class="line">3. 节点右边会显示延迟（ms）</span><br><span class="line">4. 延迟越低越快</span><br></pre></td></tr></table></figure>
+
+<p><strong>建议：</strong></p>
+<ul>
+<li>&lt;50ms：极快</li>
+<li>50-100ms：快</li>
+<li>100-200ms：一般</li>
+<li><blockquote>
+<p>200ms：慢</p>
+</blockquote>
+</li>
+</ul>
+<hr>
+<h3 id="2-流量统计"><a href="#2-流量统计" class="headerlink" title="2. 流量统计"></a>2. 流量统计</h3><p><strong>查看方法：</strong></p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">1. 首页 → 向下拉</span><br><span class="line">2. 看到&quot;今日使用&quot;、&quot;本月使用&quot;</span><br><span class="line">3. 监控流量消耗</span><br></pre></td></tr></table></figure>
+
+<hr>
+<h3 id="3-订阅自动更新"><a href="#3-订阅自动更新" class="headerlink" title="3. 订阅自动更新"></a>3. 订阅自动更新</h3><p><strong>设置方法：</strong></p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">1. 首页 → 点击&quot;设置&quot;</span><br><span class="line">2. 找到&quot;订阅&quot;</span><br><span class="line">3. 开启&quot;打开时更新&quot;</span><br><span class="line">4. 开启&quot;自动后台更新&quot;</span><br></pre></td></tr></table></figure>
+
+<p>这样每次打开Shadowrocket，都会自动更新节点列表。</p>
+<hr>
+<h3 id="4-按需连接"><a href="#4-按需连接" class="headerlink" title="4. 按需连接"></a>4. 按需连接</h3><p><strong>功能：</strong> 只在需要时连接，省电</p>
+<p><strong>设置：</strong></p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">1. 设置 → 按需连接</span><br><span class="line">2. 开启&quot;打开时连接&quot;</span><br><span class="line">3. 选择&quot;WLAN与蜂窝网络&quot;</span><br></pre></td></tr></table></figure>
+
+<hr>
+<h3 id="5-URL测试（自动选择最快节点）"><a href="#5-URL测试（自动选择最快节点）" class="headerlink" title="5. URL测试（自动选择最快节点）"></a>5. URL测试（自动选择最快节点）</h3><p><strong>设置方法：</strong></p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">1. 首页 → 点击节点右边的&quot;i&quot;</span><br><span class="line">2. 找到&quot;URL测试&quot;部分</span><br><span class="line">3. 开启&quot;自动测试&quot;</span><br><span class="line">4. 设置测试间隔（如600秒）</span><br></pre></td></tr></table></figure>
+
+<p>Shadowrocket会自动选择延迟最低的节点。</p>
+<hr>
+<h2 id="Shadowrocket-vs-其他iOS客户端"><a href="#Shadowrocket-vs-其他iOS客户端" class="headerlink" title="Shadowrocket vs 其他iOS客户端"></a>Shadowrocket vs 其他iOS客户端</h2><table>
+<thead>
+<tr>
+<th>客户端</th>
+<th>价格</th>
+<th>易用性</th>
+<th>功能</th>
+<th>推荐度</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><strong>Shadowrocket</strong></td>
+<td>$2.99</td>
+<td>⭐⭐⭐⭐⭐</td>
+<td>⭐⭐⭐⭐⭐</td>
+<td>⭐⭐⭐⭐⭐</td>
+</tr>
+<tr>
+<td>Stash</td>
+<td>$3.99</td>
+<td>⭐⭐⭐⭐</td>
+<td>⭐⭐⭐⭐⭐</td>
+<td>⭐⭐⭐⭐</td>
+</tr>
+<tr>
+<td>Quantumult X</td>
+<td>$7.99</td>
+<td>⭐⭐</td>
+<td>⭐⭐⭐⭐⭐</td>
+<td>⭐⭐⭐</td>
+</tr>
+<tr>
+<td>Surge</td>
+<td>$49.99</td>
+<td>⭐⭐</td>
+<td>⭐⭐⭐⭐⭐</td>
+<td>⭐⭐</td>
+</tr>
+</tbody></table>
+<p><strong>结论：</strong> Shadowrocket是性价比最高、最适合普通用户的选择。</p>
+<hr>
+<h2 id="常见问题20问"><a href="#常见问题20问" class="headerlink" title="常见问题20问"></a>常见问题20问</h2><h3 id="Q1：Shadowrocket安全吗？"><a href="#Q1：Shadowrocket安全吗？" class="headerlink" title="Q1：Shadowrocket安全吗？"></a>Q1：Shadowrocket安全吗？</h3><p><strong>A：</strong> 安全，理由：</p>
+<ul>
+<li>App Store官方上架</li>
+<li>开发者信誉良好</li>
+<li>只是代理工具，不窃取数据</li>
+</ul>
+<hr>
+<h3 id="Q2：Shadowrocket需要订阅吗？"><a href="#Q2：Shadowrocket需要订阅吗？" class="headerlink" title="Q2：Shadowrocket需要订阅吗？"></a>Q2：Shadowrocket需要订阅吗？</h3><p><strong>A：</strong> 不需要。Shadowrocket是一次性购买（$2.99），永久使用。</p>
+<p>但你需要购买机场服务（月付或年付），Shadowrocket只是客户端。</p>
+<hr>
+<h3 id="Q3：Shadowrocket耗电吗？"><a href="#Q3：Shadowrocket耗电吗？" class="headerlink" title="Q3：Shadowrocket耗电吗？"></a>Q3：Shadowrocket耗电吗？</h3><p><strong>A：</strong> 不耗电。实测对比：</p>
+<ul>
+<li>不开Shadowrocket：100% → 10%用时8小时</li>
+<li>开Shadowrocket：100% → 10%用时7.5小时</li>
+</ul>
+<p>影响可忽略不计。</p>
+<hr>
+<h3 id="Q4：Shadowrocket会不会被封号？"><a href="#Q4：Shadowrocket会不会被封号？" class="headerlink" title="Q4：Shadowrocket会不会被封号？"></a>Q4：Shadowrocket会不会被封号？</h3><p><strong>A：</strong> 不会。使用Shadowrocket本身不会导致Apple ID被封。</p>
+<p>但注意：</p>
+<ul>
+<li>不要在多台设备同时登录美区ID</li>
+<li>不要频繁切换地区</li>
+</ul>
+<hr>
+<h3 id="Q5：Shadowrocket连不上怎么办？"><a href="#Q5：Shadowrocket连不上怎么办？" class="headerlink" title="Q5：Shadowrocket连不上怎么办？"></a>Q5：Shadowrocket连不上怎么办？</h3><p><strong>A：</strong> 排查步骤：</p>
+<ol>
+<li><p><strong>检查节点是否有效</strong></p>
+<ul>
+<li>尝试切换其他节点</li>
+<li>更新订阅</li>
+</ul>
+</li>
+<li><p><strong>检查网络</strong></p>
+<ul>
+<li>关闭WiFi，用流量试试</li>
+<li>重启路由器</li>
+</ul>
+</li>
+<li><p><strong>检查设置</strong></p>
+<ul>
+<li>确认选择了”配置”模式</li>
+<li>检查规则是否正确</li>
+</ul>
+</li>
+<li><p><strong>重装Shadowrocket</strong></p>
+<ul>
+<li>删除App</li>
+<li>重新下载并配置</li>
+</ul>
+</li>
+</ol>
+<hr>
+<h3 id="Q6：Shadowrocket能看Netflix吗？"><a href="#Q6：Shadowrocket能看Netflix吗？" class="headerlink" title="Q6：Shadowrocket能看Netflix吗？"></a>Q6：Shadowrocket能看Netflix吗？</h3><p><strong>A：</strong> 能，前提是机场支持Netflix解锁。</p>
+<p><strong>推荐支持Netflix的机场：</strong></p>
+<ul>
+<li>极连云</li>
+<li>云图</li>
+<li>光年梯</li>
+</ul>
+<hr>
+<h3 id="Q7：Shadowrocket能用ChatGPT吗？"><a href="#Q7：Shadowrocket能用ChatGPT吗？" class="headerlink" title="Q7：Shadowrocket能用ChatGPT吗？"></a>Q7：Shadowrocket能用ChatGPT吗？</h3><p><strong>A：</strong> 能，选择美国、日本等支持的地区节点即可。</p>
+<hr>
+<h3 id="Q8：Shadowrocket可以几个人一起用吗？"><a href="#Q8：Shadowrocket可以几个人一起用吗？" class="headerlink" title="Q8：Shadowrocket可以几个人一起用吗？"></a>Q8：Shadowrocket可以几个人一起用吗？</h3><p><strong>A：</strong> Shadowrocket本身可以，但：</p>
+<ul>
+<li>同一个Apple ID只能5台设备</li>
+<li>机场订阅通常限制同时在线设备数（3-5台）</li>
+</ul>
+<hr>
+<h3 id="Q9：Shadowrocket怎么更新订阅？"><a href="#Q9：Shadowrocket怎么更新订阅？" class="headerlink" title="Q9：Shadowrocket怎么更新订阅？"></a>Q9：Shadowrocket怎么更新订阅？</h3><p><strong>A：</strong> </p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">首页 → 向下拉 → 看到&quot;更新订阅&quot;</span><br></pre></td></tr></table></figure>
+
+<p>或者设置自动更新（见”高级功能”部分）。</p>
+<hr>
+<h3 id="Q10：Shadowrocket支持哪些协议？"><a href="#Q10：Shadowrocket支持哪些协议？" class="headerlink" title="Q10：Shadowrocket支持哪些协议？"></a>Q10：Shadowrocket支持哪些协议？</h3><p><strong>A：</strong> 几乎所有主流协议：</p>
+<ul>
+<li>Shadowsocks</li>
+<li>ShadowsocksR</li>
+<li>VMess</li>
+<li>VLESS</li>
+<li>Trojan</li>
+<li>Hysteria</li>
+<li>WireGuard</li>
+</ul>
+<hr>
+<h3 id="Q11：Shadowrocket规则哪个好？"><a href="#Q11：Shadowrocket规则哪个好？" class="headerlink" title="Q11：Shadowrocket规则哪个好？"></a>Q11：Shadowrocket规则哪个好？</h3><p><strong>A：</strong> 推荐：</p>
+<ul>
+<li><strong>新手：</strong> 使用默认规则</li>
+<li><strong>进阶：</strong> Lhie1规则（功能全）</li>
+<li><strong>极简：</strong> 黑白名单规则</li>
+</ul>
+<hr>
+<h3 id="Q12：Shadowrocket可以屏蔽广告吗？"><a href="#Q12：Shadowrocket可以屏蔽广告吗？" class="headerlink" title="Q12：Shadowrocket可以屏蔽广告吗？"></a>Q12：Shadowrocket可以屏蔽广告吗？</h3><p><strong>A：</strong> 可以。导入带广告拦截的规则即可。</p>
+<p>推荐规则：</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">https://raw.githubusercontent.com/h2y/Shadowrocket-ADBlock-Rules/master/sr_top500_banlist_ad.conf</span><br></pre></td></tr></table></figure>
+
+<hr>
+<h3 id="Q13：Shadowrocket怎么测速？"><a href="#Q13：Shadowrocket怎么测速？" class="headerlink" title="Q13：Shadowrocket怎么测速？"></a>Q13：Shadowrocket怎么测速？</h3><p><strong>A：</strong> </p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">首页 → 点击&quot;连通性测试&quot; → 等待完成</span><br></pre></td></tr></table></figure>
+
+<hr>
+<h3 id="Q14：Shadowrocket可以自动选最快节点吗？"><a href="#Q14：Shadowrocket可以自动选最快节点吗？" class="headerlink" title="Q14：Shadowrocket可以自动选最快节点吗？"></a>Q14：Shadowrocket可以自动选最快节点吗？</h3><p><strong>A：</strong> 可以。开启”URL测试”功能（见”高级功能”部分）。</p>
+<hr>
+<h3 id="Q15：Shadowrocket支持IPv6吗？"><a href="#Q15：Shadowrocket支持IPv6吗？" class="headerlink" title="Q15：Shadowrocket支持IPv6吗？"></a>Q15：Shadowrocket支持IPv6吗？</h3><p><strong>A：</strong> 支持，但大部分机场不提供IPv6节点。</p>
+<hr>
+<h3 id="Q16：Shadowrocket可以用国内机场吗？"><a href="#Q16：Shadowrocket可以用国内机场吗？" class="headerlink" title="Q16：Shadowrocket可以用国内机场吗？"></a>Q16：Shadowrocket可以用国内机场吗？</h3><p><strong>A：</strong> 可以，只要机场提供标准订阅链接。</p>
+<hr>
+<h3 id="Q17：Shadowrocket和Quantumult-X哪个好？"><a href="#Q17：Shadowrocket和Quantumult-X哪个好？" class="headerlink" title="Q17：Shadowrocket和Quantumult X哪个好？"></a>Q17：Shadowrocket和Quantumult X哪个好？</h3><p><strong>A：</strong> </p>
+<ul>
+<li><strong>新手：</strong> Shadowrocket（简单易用）</li>
+<li><strong>高级用户：</strong> Quantumult X（功能更强）</li>
+</ul>
+<hr>
+<h3 id="Q18：Shadowrocket可以分享给朋友吗？"><a href="#Q18：Shadowrocket可以分享给朋友吗？" class="headerlink" title="Q18：Shadowrocket可以分享给朋友吗？"></a>Q18：Shadowrocket可以分享给朋友吗？</h3><p><strong>A：</strong> 可以分享App，但不能分享Apple ID（有安全风险）。</p>
+<p>建议：让朋友自己买美区账号下载。</p>
+<hr>
+<h3 id="Q19：Shadowrocket会被检测到吗？"><a href="#Q19：Shadowrocket会被检测到吗？" class="headerlink" title="Q19：Shadowrocket会被检测到吗？"></a>Q19：Shadowrocket会被检测到吗？</h3><p><strong>A：</strong> 使用机场本身就有被检测的风险，但：</p>
+<ul>
+<li>使用正规机场</li>
+<li>不发表敏感言论</li>
+<li>普通用户风险极低</li>
+</ul>
+<hr>
+<h3 id="Q20：Shadowrocket可以退款吗？"><a href="#Q20：Shadowrocket可以退款吗？" class="headerlink" title="Q20：Shadowrocket可以退款吗？"></a>Q20：Shadowrocket可以退款吗？</h3><p><strong>A：</strong> 可以，但有条件：</p>
+<ul>
+<li>购买后90天内</li>
+<li>通过Apple客服申请</li>
+<li>理由充分（如不兼容）</li>
+</ul>
+<hr>
+<h2 id="总结：Shadowrocket使用要点"><a href="#总结：Shadowrocket使用要点" class="headerlink" title="总结：Shadowrocket使用要点"></a>总结：Shadowrocket使用要点</h2><h3 id="核心步骤回顾"><a href="#核心步骤回顾" class="headerlink" title="核心步骤回顾"></a>核心步骤回顾</h3><ol>
+<li>✅ 获取美区Apple ID</li>
+<li>✅ 下载Shadowrocket（$2.99）</li>
+<li>✅ 购买机场订阅</li>
+<li>✅ 导入订阅链接</li>
+<li>✅ 选择节点并连接</li>
+</ol>
+<h3 id="推荐配置"><a href="#推荐配置" class="headerlink" title="推荐配置"></a>推荐配置</h3><p><strong>机场推荐：</strong></p>
+<ul>
+<li>首选：<a target="_blank" rel="noopener" href="https://haozevpn.jlyvipaff.com/#/?code=KUKfOY13">极连云</a>（8元起）</li>
+<li>备选：<a target="_blank" rel="noopener" href="https://vip.ytjcok.org/#/register?code=qPHQtI9a">云图</a>（25元，码<code>yt88</code>）</li>
+</ul>
+<p><strong>规则推荐：</strong></p>
+<ul>
+<li>新手：使用默认规则</li>
+<li>进阶：Lhie1规则</li>
+</ul>
+<p><strong>节点选择：</strong></p>
+<ul>
+<li>日常使用：香港、日本</li>
+<li>看Netflix：推荐新加坡、美国</li>
+<li>用ChatGPT：推荐美国、日本</li>
+</ul>
+<hr>
+<h2 id="相关阅读"><a href="#相关阅读" class="headerlink" title="相关阅读"></a>相关阅读</h2><ul>
+<li><a href="/2026/02/20/airport-recommendations/">2026年机场推荐</a></li>
+<li><a href="/2026/03/01/mobile-vpn-guide/">iOS翻墙完整方案</a></li>
+<li><a href="/2026/03/29/quantumult-x-tutorial/">Quantumult X教程</a></li>
+<li>美区Apple ID注册教程</li>
+<li><a href="/2026/08/24/airport-vs-traditional-vpn-2026/">机场vs传统VPN对比</a></li>
+</ul>
+<hr>
+<p><strong>最后更新：</strong> 2026年8月25日<br><strong>Shadowrocket版本：</strong> v2.2.44<br><strong>测试设备：</strong> iPhone 14 Pro (iOS 17.5)<br><strong>下次更新：</strong> 2026年9月25日</p>
+</article><div class="post-copyright"><div class="post-copyright__author"><span class="post-copyright-meta"><i class="fas fa-circle-user fa-fw"></i>文章作者: </span><span class="post-copyright-info"><a href="https://clashmac.vip">August</a></span></div><div class="post-copyright__type"><span class="post-copyright-meta"><i class="fas fa-square-arrow-up-right fa-fw"></i>文章链接: </span><span class="post-copyright-info"><a href="https://clashmac.vip/2026/08/25/shadowrocket-complete-guide-2026/">https://clashmac.vip/2026/08/25/shadowrocket-complete-guide-2026/</a></span></div><div class="post-copyright__notice"><span class="post-copyright-meta"><i class="fas fa-circle-exclamation fa-fw"></i>版权声明: </span><span class="post-copyright-info">本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">CC BY-NC-SA 4.0</a> 许可协议。转载请注明来源 <a href="https://clashmac.vip" target="_blank">机场推荐与梯子VPN推荐</a>！</span></div></div><div class="tag_share"><div class="post-meta__tag-list"><a class="post-meta__tags" href="/tags/%E7%A7%91%E5%AD%A6%E4%B8%8A%E7%BD%91/">科学上网</a><a class="post-meta__tags" href="/tags/%E6%9C%BA%E5%9C%BA%E6%8E%A8%E8%8D%90/">机场推荐</a><a class="post-meta__tags" href="/tags/%E7%BF%BB%E5%A2%99/">翻墙</a><a class="post-meta__tags" href="/tags/%E7%A7%91%E5%AD%A6%E4%B8%8A%E7%BD%91%E6%95%99%E7%A8%8B/">科学上网教程</a><a class="post-meta__tags" href="/tags/%E5%AE%A2%E6%88%B7%E7%AB%AF%E6%95%99%E7%A8%8B/">客户端教程</a><a class="post-meta__tags" href="/tags/iOS%E7%BF%BB%E5%A2%99/">iOS翻墙</a><a class="post-meta__tags" href="/tags/Shadowrocket/">Shadowrocket</a><a class="post-meta__tags" href="/tags/%E5%B0%8F%E7%81%AB%E7%AE%AD/">小火箭</a><a class="post-meta__tags" href="/tags/iPhone%E7%BF%BB%E5%A2%99/">iPhone翻墙</a><a class="post-meta__tags" href="/tags/Shadowrocket%E6%95%99%E7%A8%8B/">Shadowrocket教程</a><a class="post-meta__tags" href="/tags/%E8%8B%B9%E6%9E%9C%E7%BF%BB%E5%A2%99/">苹果翻墙</a></div><div class="post-share"><div class="social-share" data-image="/img/butterfly-icon.png" data-sites="facebook,x,wechat,weibo,qq"></div><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/butterfly-extsrc@1.1.6/sharejs/dist/css/share.min.css" media="print" onload="this.media='all'"><script src="https://cdn.jsdelivr.net/npm/butterfly-extsrc@1.1.6/sharejs/dist/js/social-share.min.js" defer></script></div></div><nav class="pagination-post" id="pagination"><a class="pagination-related" href="/2026/08/25/airport-connection-troubleshooting/" title="机场突然连不上怎么办？8种原因+完整解决方案（2026版）"><div class="cover" style="background: var(--default-bg-color)"></div><div class="info"><div class="info-1"><div class="info-item-1">上一篇</div><div class="info-item-2">机场突然连不上怎么办？8种原因+完整解决方案（2026版）</div></div><div class="info-2"><div class="info-item-1">“昨天还好好的，今天突然连不上了！”——这可能是使用机场时最常遇到的问题。 别慌！99%的连接问题都能在10分钟内解决。本文将系统性地分析机场连不上的所有可能原因，并提供完整的解决方案。   快速诊断流程图在开始详细排查前，先用这个流程图快速定位问题： 12345678910机场连不上？    ↓能打开机场官网吗？    ↓ 是                    ↓ 否节点列表是空的吗？      官网被墙了    ↓ 是      ↓ 否         → 用备用机场订阅过期    能ping通节点IP吗？→ 续费充值      ↓ 是        ↓ 否            客户端问题    节点被墙            → 重装客户端  → 换节点   8种常见原因分析根据我们收集的1000+用户反馈，机场连不上主要有以下8种原因： 原因1：订阅已过期（最常见）⭐⭐⭐⭐⭐症状：  节点列表变空 提示”订阅无效” 客户端显示”0个节点”  解决方法：  检查是否过期  登录机场官网 查看”我的订阅” 看到期时间   续费充值  点击”续费”或”购买套餐” 完成支付...</div></div></div></a><a class="pagination-related" href="/2026/08/25/cost-effective-airports-2026/" title="2026年性价比机场推荐 | 便宜又好用的高性价比机场精选"><div class="cover" style="background: var(--default-bg-color)"></div><div class="info text-right"><div class="info-1"><div class="info-item-1">下一篇</div><div class="info-item-2">2026年性价比机场推荐 | 便宜又好用的高性价比机场精选</div></div><div class="info-2"><div class="info-item-1">“有没有便宜又好用的机场？”、”性价比最高的机场是哪个？”——如果你正在寻找高性价比机场，那么这篇文章就是为你准备的。 但请注意：性价比≠便宜。一个每月5元但经常断线的机场，远不如一个15元但稳定流畅的机场性价比高。 本文将从真正的性价比角度出发，为你推荐2026年最值得购买的高性价比机场。   什么是真正的性价比？性价比的正确计算公式很多人以为便宜就是性价比高，这是最大的误区。真正的性价比应该这样计算： 1234567性价比 = (速度 × 稳定性 × 解锁能力) ÷ 价格其中：- 速度：晚高峰实测速度（Mbps）- 稳定性：月可用率（%）- 解锁能力：Netflix/ChatGPT等解锁情况- 价格：月费或年费折算的月均价  举个例子机场A： 5元/月，50GB流量，但晚高峰只有10Mbps，经常掉线机场B： 15元/月，100GB流量，晚高峰80Mbps，99%可用率 看似机场A便宜3倍，但实际体验差10倍，机场B的性价比远高于机场A。 高性价比机场的5个标准✅ 价格合理：月费8-25元（不是越便宜越好）✅ 速度达标：晚高峰至少50Mbps+✅ 稳定可靠：月可用率95%+✅...</div></div></div></a></nav><div class="relatedPosts"><div class="headline"><i class="fas fa-thumbs-up fa-fw"></i><span>相关推荐</span></div><div class="relatedPosts-list"><a class="pagination-related" href="/2026/03/29/shadowrocket-v2-tutorial/" title="Shadowrocket（小火箭）使用教程 · iOS 翻墙配置指南"><div class="cover" style="background: var(--default-bg-color)"></div><div class="info text-center"><div class="info-1"><div class="info-item-1"><i class="far fa-calendar-alt fa-fw"></i> 2026-03-29</div><div class="info-item-2">Shadowrocket（小火箭）使用教程 · iOS 翻墙配置指南</div></div><div class="info-2"><div class="info-item-1">Shadowrocket (小火箭) 客户端怎么下载？订阅链接怎么导入？ Shadowrocket (小火箭) 是目前最流行且高效的科学上网工具之一，支持 VLESS、Reality、Hysteria2、Shadowsocks 等最新翻墙协议。本文提供 2026 最新 Shadowrocket (小火箭) 官方安全下载地址、保姆级图文订阅配置教程，以及常见连不上网的排查方法，帮您轻松搞定全平台设备的科学上网配置，实现高速稳定的网络访问。 Shadowrocket（俗称小火箭） 是一款运行于 iOS / iPadOS 平台的老牌代理客户端，因稳定、兼容性强而广受欢迎。支持 SS、SSR、VMess（V2Ray）、VLESS（Xray）、Trojan、Hysteria、TUIC 等多种协议。   📥 Shadowrocket 怎么下载？官方安全下载渠道汇总由于国内 App Store 的政策问题，您需要使用 外区 Apple ID（如美区、港区或日区 ID）进行购买下载：  App Store 地址: Shadowrocket 价格: 通常为 2.99 USD。 注意: 国区 Ap...</div></div></div></a><a class="pagination-related" href="/2026/03/29/egern-tutorial/" title="Egern 使用教程 · iOS 平台配置全流程"><div class="cover" style="background: var(--default-bg-color)"></div><div class="info text-center"><div class="info-1"><div class="info-item-1"><i class="far fa-calendar-alt fa-fw"></i> 2026-03-29</div><div class="info-item-2">Egern 使用教程 · iOS 平台配置全流程</div></div><div class="info-2"><div class="info-item-1">Egern 客户端怎么下载？订阅链接怎么导入？ Egern 是目前最流行且高效的科学上网工具之一，支持 VLESS、Reality、Hysteria2、Shadowsocks 等最新翻墙协议。本文提供 2026 最新 Egern 官方安全下载地址、保姆级图文订阅配置教程，以及常见连不上网的排查方法，帮您轻松搞定全平台设备的科学上网配置，实现高速稳定的网络访问。 Egern 是一款在 iOS 苹果端快速崛起的新型科学上网工具。它完全基于现代网络通信标准进行构建，对新兴协议适配极快，同时在处理流媒体高画质内容时，其缓存与数据处理效率非常高。   🚀 软件亮点 新兴协议优先：对 Hysteria2、VLESS Reality 等新协议适配速度极快。 流媒体优化：高画质流媒体加载效率卓越。 现代设计：基于现代网络标准构建，性能优越。 iOS 原生：专为 iOS / iPadOS 深度优化。   📥 Egern 怎么下载？官方安全下载渠道汇总需要使用 外区 Apple ID（如美区）购买下载：  App Store 地址: Egern   ⚙️ Egern 订阅链接如何导入？快速上手配...</div></div></div></a><a class="pagination-related" href="/2026/03/29/quantumult-x-tutorial/" title="Quantumult X 使用教程 · iOS 订阅导入全流程"><div class="cover" style="background: var(--default-bg-color)"></div><div class="info text-center"><div class="info-1"><div class="info-item-1"><i class="far fa-calendar-alt fa-fw"></i> 2026-03-29</div><div class="info-item-2">Quantumult X 使用教程 · iOS 订阅导入全流程</div></div><div class="info-2"><div class="info-item-1">Quantumult X (圈X) 客户端怎么下载？订阅链接怎么导入？ Quantumult X (圈X) 是目前最流行且高效的科学上网工具之一，支持 VLESS、Reality、Hysteria2、Shadowsocks 等最新翻墙协议。本文提供 2026 最新 Quantumult X (圈X) 官方安全下载地址、保姆级图文订阅配置教程，以及常见连不上网的排查方法，帮您轻松搞定全平台设备的科学上网配置，实现高速稳定的网络访问。 Quantumult X（简称 QX 或 圈X）是一款在 iOS 苹果生态内备受极客推崇的代理利器。除了基本的节点代理，它还能实现高度自定义的流量分流、网页重写以及极其高效的去广告能力。  支持协议包括：SS、SSR、VMess（V2Ray）、VLESS、Trojan、HTTP(S)、SOCKS5 等。  📥 Quantumult 怎么下载？官方安全下载渠道汇总需要使用 外区 Apple ID（如美区）购买下载：  App Store 地址: Quantumult X 价格: 7.99 USD   ⚙️ Quantumult 订阅链接如何导入？快速上...</div></div></div></a><a class="pagination-related" href="/2026/03/29/flclash-tutorial/" title="FlClash 使用教程 · Android&#x2F;桌面端图文指南"><div class="cover" style="background: var(--default-bg-color)"></div><div class="info text-center"><div class="info-1"><div class="info-item-1"><i class="far fa-calendar-alt fa-fw"></i> 2026-03-29</div><div class="info-item-2">FlClash 使用教程 · Android&#x2F;桌面端图文指南</div></div><div class="info-2"><div class="info-item-1">Flclash 客户端怎么下载？订阅链接怎么导入？ Flclash 是目前最流行且高效的科学上网工具之一，支持 VLESS、Reality、Hysteria2、Shadowsocks 等最新翻墙协议。本文提供 2026 最新 Flclash 官方安全下载地址、保姆级图文订阅配置教程，以及常见连不上网的排查方法，帮您轻松搞定全平台设备的科学上网配置，实现高速稳定的网络访问。 Flclash 是一款极具现代感的开源代理工具。它采用了 Flutter 技术开发，支持 Windows、macOS、Linux 和 Android 众多平台。相比传统的 Electron 架构，Flclash 在保持美感的同时，显著提升了启动速度和交互响应。   🚀 软件特点 跨平台支持：Windows、macOS、Linux、Android 全覆盖。 现代 UI 设计：基于 Flutter 开发，界面美观流畅。 轻量高效：比 Electron 方案更省资源。 Clash 内核：基于 Mihomo 内核，支持主流代理协议。   📥 FlClash 怎么下载？官方安全下载渠道汇总 官方 GitHub: Fl...</div></div></div></a><a class="pagination-related" href="/2026/03/29/clashmi-tutorial/" title="ClashMi 使用教程 · 订阅导入与配置全流程"><div class="cover" style="background: var(--default-bg-color)"></div><div class="info text-center"><div class="info-1"><div class="info-item-1"><i class="far fa-calendar-alt fa-fw"></i> 2026-03-29</div><div class="info-item-2">ClashMi 使用教程 · 订阅导入与配置全流程</div></div><div class="info-2"><div class="info-item-1">Clashmi 客户端怎么下载？订阅链接怎么导入？ Clashmi 是目前最流行且高效的科学上网工具之一，支持 VLESS、Reality、Hysteria2、Shadowsocks 等最新翻墙协议。本文提供 2026 最新 Clashmi 官方安全下载地址、保姆级图文订阅配置教程，以及常见连不上网的排查方法，帮您轻松搞定全平台设备的科学上网配置，实现高速稳定的网络访问。 Clash Mi 是一款基于 Mihomo（Clash Meta）核心 的代理客户端，界面简洁、操作直观，非常适合新手快速导入机场订阅并使用规则分流或全局代理。   🚀 软件亮点 极致精简：无多余动画与广告，一切为了极致的网络转发效率。 内核无缝适配：完美发挥 Mihomo 内核在流媒体解锁与边缘分流上的优势。 资源占用低：内存占用仅为同类 Electron 框架软件的不到三分之一。 配置灵活：支持复杂的 YAML 自定义，满足各种专家级分流场景。   📥 ClashMi 怎么下载？官方安全下载渠道汇总 官方 GitHub: Clash Mi Releases 建议优先下载 最新正式版（Release）。 ...</div></div></div></a><a class="pagination-related" href="/2026/08/24/clash-to-mihomo-migration-2026/" title="Clash已停更，Mihomo才是2026年的正确选择！完整迁移指南"><div class="cover" style="background: var(--default-bg-color)"></div><div class="info text-center"><div class="info-1"><div class="info-item-1"><i class="far fa-calendar-alt fa-fw"></i> 2026-08-24</div><div class="info-item-2">Clash已停更，Mihomo才是2026年的正确选择！完整迁移指南</div></div><div class="info-2"><div class="info-item-1">如果你还在寻找”Clash for Windows下载”或”Clash最新版”，那你需要知道一个重要事实：Clash原版已经在2023年底永久停止更新，其GitHub仓库也已删除。 但好消息是，Clash的继任者Mihomo（原名Clash Meta）不仅继承了Clash的全部优点，还带来了更强大的功能和更好的性能。2026年，如果你还在用老版Clash，是时候升级了！ 本文将告诉你：Clash发生了什么？Mihomo是什么？如何选择和使用2026年最新的客户端？   Clash的前世今生：从巅峰到谢幕Clash为什么停更？2023年底，Clash系列客户端经历了一次集体”大撤退”：  Clash原版：开发者删除了GitHub仓库，永久停止维护 Clash for Windows（CFW）：作者宣布停止更新并删除仓库 Clash for Android（CFA）：开发者Kr328同样停止维护  停更原因众说纷纭，但普遍认为与以下因素有关：  监管压力增大 开发者个人安全考虑 项目维护成本与收益不成正比  Clash Meta横空出世，更名Mihomo就在Clash原版停更前，一个...</div></div></div></a></div></div></div><div class="aside-content" id="aside-content"><div class="sticky_layout"><div class="card-widget" id="card-toc"><div class="item-headline"><i class="fas fa-stream"></i><span>目录</span><span class="toc-percentage"></span></div><div class="toc-content"><ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#Shadowrocket%EF%BC%88%E5%B0%8F%E7%81%AB%E7%AE%AD%EF%BC%89%E6%98%AF%E4%BB%80%E4%B9%88%EF%BC%9F"><span class="toc-number">1.</span> <span class="toc-text">Shadowrocket（小火箭）是什么？</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%9F%BA%E6%9C%AC%E4%BB%8B%E7%BB%8D"><span class="toc-number">1.1.</span> <span class="toc-text">基本介绍</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E7%AC%AC%E4%B8%80%E6%AD%A5%EF%BC%9A%E8%8E%B7%E5%8F%96%E7%BE%8E%E5%8C%BAApple-ID"><span class="toc-number">2.</span> <span class="toc-text">第一步：获取美区Apple ID</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E4%B8%BA%E4%BB%80%E4%B9%88%E9%9C%80%E8%A6%81%E7%BE%8E%E5%8C%BAApple-ID%EF%BC%9F"><span class="toc-number">2.1.</span> <span class="toc-text">为什么需要美区Apple ID？</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E6%96%B9%E6%A1%88A%EF%BC%9A%E8%B4%AD%E4%B9%B0%E7%8E%B0%E6%88%90%E7%9A%84%E7%BE%8E%E5%8C%BAID%EF%BC%88%E6%8E%A8%E8%8D%90%E6%96%B0%E6%89%8B%EF%BC%89"><span class="toc-number">2.2.</span> <span class="toc-text">方案A：购买现成的美区ID（推荐新手）</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E6%96%B9%E6%A1%88B%EF%BC%9A%E8%87%AA%E5%B7%B1%E6%B3%A8%E5%86%8C%E7%BE%8E%E5%8C%BAID%EF%BC%88%E5%85%8D%E8%B4%B9%E4%BD%86%E9%BA%BB%E7%83%A6%EF%BC%89"><span class="toc-number">2.3.</span> <span class="toc-text">方案B：自己注册美区ID（免费但麻烦）</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E7%AC%AC%E4%BA%8C%E6%AD%A5%EF%BC%9A%E4%B8%8B%E8%BD%BDShadowrocket"><span class="toc-number">3.</span> <span class="toc-text">第二步：下载Shadowrocket</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E4%B8%8B%E8%BD%BD%E6%B5%81%E7%A8%8B"><span class="toc-number">3.1.</span> <span class="toc-text">下载流程</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E7%AC%AC%E4%B8%89%E6%AD%A5%EF%BC%9A%E8%B4%AD%E4%B9%B0%E6%9C%BA%E5%9C%BA%E8%AE%A2%E9%98%85"><span class="toc-number">4.</span> <span class="toc-text">第三步：购买机场订阅</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E6%8E%A8%E8%8D%90%E6%9C%BA%E5%9C%BA"><span class="toc-number">4.1.</span> <span class="toc-text">推荐机场</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#%F0%9F%A5%87-%E6%9E%81%E8%BF%9E%E4%BA%91-8%E5%85%83%E8%B5%B7"><span class="toc-number">4.1.1.</span> <span class="toc-text">🥇 极连云 - 8元起</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%F0%9F%A5%88-%E4%BA%91%E5%9B%BE-25%E5%85%83%E8%B5%B7"><span class="toc-number">4.1.2.</span> <span class="toc-text">🥈 云图 - 25元起</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%F0%9F%A5%89-%E5%85%89%E5%B9%B4%E6%A2%AF-7-42%E5%85%83%E8%B5%B7"><span class="toc-number">4.1.3.</span> <span class="toc-text">🥉 光年梯 - 7.42元起</span></a></li></ol></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E7%AC%AC%E5%9B%9B%E6%AD%A5%EF%BC%9A%E5%AF%BC%E5%85%A5%E6%9C%BA%E5%9C%BA%E8%AE%A2%E9%98%85"><span class="toc-number">5.</span> <span class="toc-text">第四步：导入机场订阅</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E6%96%B9%E6%B3%951%EF%BC%9A%E4%B8%80%E9%94%AE%E8%AE%A2%E9%98%85%E5%AF%BC%E5%85%A5%EF%BC%88%E6%8E%A8%E8%8D%90%EF%BC%89"><span class="toc-number">5.1.</span> <span class="toc-text">方法1：一键订阅导入（推荐）</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E6%96%B9%E6%B3%952%EF%BC%9A%E6%89%AB%E6%8F%8F%E4%BA%8C%E7%BB%B4%E7%A0%81%E5%AF%BC%E5%85%A5"><span class="toc-number">5.2.</span> <span class="toc-text">方法2：扫描二维码导入</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E6%96%B9%E6%B3%953%EF%BC%9A%E6%89%8B%E5%8A%A8%E6%B7%BB%E5%8A%A0%E8%8A%82%E7%82%B9"><span class="toc-number">5.3.</span> <span class="toc-text">方法3：手动添加节点</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E7%AC%AC%E4%BA%94%E6%AD%A5%EF%BC%9A%E8%BF%9E%E6%8E%A5%E5%B9%B6%E5%BC%80%E5%A7%8B%E4%BD%BF%E7%94%A8"><span class="toc-number">6.</span> <span class="toc-text">第五步：连接并开始使用</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%9F%BA%E6%9C%AC%E8%BF%9E%E6%8E%A5"><span class="toc-number">6.1.</span> <span class="toc-text">基本连接</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E8%BF%9E%E6%8E%A5%E6%A8%A1%E5%BC%8F%E9%80%89%E6%8B%A9"><span class="toc-number">6.2.</span> <span class="toc-text">连接模式选择</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E8%BF%9B%E9%98%B6%E5%8A%9F%E8%83%BD%EF%BC%9A%E8%A7%84%E5%88%99%E9%85%8D%E7%BD%AE"><span class="toc-number">7.</span> <span class="toc-text">进阶功能：规则配置</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E4%BB%80%E4%B9%88%E6%98%AF%E8%A7%84%E5%88%99%EF%BC%9F"><span class="toc-number">7.1.</span> <span class="toc-text">什么是规则？</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%AF%BC%E5%85%A5%E5%B8%B8%E7%94%A8%E8%A7%84%E5%88%99"><span class="toc-number">7.2.</span> <span class="toc-text">导入常用规则</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E8%87%AA%E5%AE%9A%E4%B9%89%E8%A7%84%E5%88%99"><span class="toc-number">7.3.</span> <span class="toc-text">自定义规则</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E9%AB%98%E7%BA%A7%E5%8A%9F%E8%83%BD"><span class="toc-number">8.</span> <span class="toc-text">高级功能</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#1-%E5%BB%B6%E8%BF%9F%E6%B5%8B%E8%AF%95"><span class="toc-number">8.1.</span> <span class="toc-text">1. 延迟测试</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#2-%E6%B5%81%E9%87%8F%E7%BB%9F%E8%AE%A1"><span class="toc-number">8.2.</span> <span class="toc-text">2. 流量统计</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#3-%E8%AE%A2%E9%98%85%E8%87%AA%E5%8A%A8%E6%9B%B4%E6%96%B0"><span class="toc-number">8.3.</span> <span class="toc-text">3. 订阅自动更新</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#4-%E6%8C%89%E9%9C%80%E8%BF%9E%E6%8E%A5"><span class="toc-number">8.4.</span> <span class="toc-text">4. 按需连接</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#5-URL%E6%B5%8B%E8%AF%95%EF%BC%88%E8%87%AA%E5%8A%A8%E9%80%89%E6%8B%A9%E6%9C%80%E5%BF%AB%E8%8A%82%E7%82%B9%EF%BC%89"><span class="toc-number">8.5.</span> <span class="toc-text">5. URL测试（自动选择最快节点）</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Shadowrocket-vs-%E5%85%B6%E4%BB%96iOS%E5%AE%A2%E6%88%B7%E7%AB%AF"><span class="toc-number">9.</span> <span class="toc-text">Shadowrocket vs 其他iOS客户端</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%9820%E9%97%AE"><span class="toc-number">10.</span> <span class="toc-text">常见问题20问</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#Q1%EF%BC%9AShadowrocket%E5%AE%89%E5%85%A8%E5%90%97%EF%BC%9F"><span class="toc-number">10.1.</span> <span class="toc-text">Q1：Shadowrocket安全吗？</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Q2%EF%BC%9AShadowrocket%E9%9C%80%E8%A6%81%E8%AE%A2%E9%98%85%E5%90%97%EF%BC%9F"><span class="toc-number">10.2.</span> <span class="toc-text">Q2：Shadowrocket需要订阅吗？</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Q3%EF%BC%9AShadowrocket%E8%80%97%E7%94%B5%E5%90%97%EF%BC%9F"><span class="toc-number">10.3.</span> <span class="toc-text">Q3：Shadowrocket耗电吗？</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Q4%EF%BC%9AShadowrocket%E4%BC%9A%E4%B8%8D%E4%BC%9A%E8%A2%AB%E5%B0%81%E5%8F%B7%EF%BC%9F"><span class="toc-number">10.4.</span> <span class="toc-text">Q4：Shadowrocket会不会被封号？</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Q5%EF%BC%9AShadowrocket%E8%BF%9E%E4%B8%8D%E4%B8%8A%E6%80%8E%E4%B9%88%E5%8A%9E%EF%BC%9F"><span class="toc-number">10.5.</span> <span class="toc-text">Q5：Shadowrocket连不上怎么办？</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Q6%EF%BC%9AShadowrocket%E8%83%BD%E7%9C%8BNetflix%E5%90%97%EF%BC%9F"><span class="toc-number">10.6.</span> <span class="toc-text">Q6：Shadowrocket能看Netflix吗？</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Q7%EF%BC%9AShadowrocket%E8%83%BD%E7%94%A8ChatGPT%E5%90%97%EF%BC%9F"><span class="toc-number">10.7.</span> <span class="toc-text">Q7：Shadowrocket能用ChatGPT吗？</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Q8%EF%BC%9AShadowrocket%E5%8F%AF%E4%BB%A5%E5%87%A0%E4%B8%AA%E4%BA%BA%E4%B8%80%E8%B5%B7%E7%94%A8%E5%90%97%EF%BC%9F"><span class="toc-number">10.8.</span> <span class="toc-text">Q8：Shadowrocket可以几个人一起用吗？</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Q9%EF%BC%9AShadowrocket%E6%80%8E%E4%B9%88%E6%9B%B4%E6%96%B0%E8%AE%A2%E9%98%85%EF%BC%9F"><span class="toc-number">10.9.</span> <span class="toc-text">Q9：Shadowrocket怎么更新订阅？</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Q10%EF%BC%9AShadowrocket%E6%94%AF%E6%8C%81%E5%93%AA%E4%BA%9B%E5%8D%8F%E8%AE%AE%EF%BC%9F"><span class="toc-number">10.10.</span> <span class="toc-text">Q10：Shadowrocket支持哪些协议？</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Q11%EF%BC%9AShadowrocket%E8%A7%84%E5%88%99%E5%93%AA%E4%B8%AA%E5%A5%BD%EF%BC%9F"><span class="toc-number">10.11.</span> <span class="toc-text">Q11：Shadowrocket规则哪个好？</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Q12%EF%BC%9AShadowrocket%E5%8F%AF%E4%BB%A5%E5%B1%8F%E8%94%BD%E5%B9%BF%E5%91%8A%E5%90%97%EF%BC%9F"><span class="toc-number">10.12.</span> <span class="toc-text">Q12：Shadowrocket可以屏蔽广告吗？</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Q13%EF%BC%9AShadowrocket%E6%80%8E%E4%B9%88%E6%B5%8B%E9%80%9F%EF%BC%9F"><span class="toc-number">10.13.</span> <span class="toc-text">Q13：Shadowrocket怎么测速？</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Q14%EF%BC%9AShadowrocket%E5%8F%AF%E4%BB%A5%E8%87%AA%E5%8A%A8%E9%80%89%E6%9C%80%E5%BF%AB%E8%8A%82%E7%82%B9%E5%90%97%EF%BC%9F"><span class="toc-number">10.14.</span> <span class="toc-text">Q14：Shadowrocket可以自动选最快节点吗？</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Q15%EF%BC%9AShadowrocket%E6%94%AF%E6%8C%81IPv6%E5%90%97%EF%BC%9F"><span class="toc-number">10.15.</span> <span class="toc-text">Q15：Shadowrocket支持IPv6吗？</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Q16%EF%BC%9AShadowrocket%E5%8F%AF%E4%BB%A5%E7%94%A8%E5%9B%BD%E5%86%85%E6%9C%BA%E5%9C%BA%E5%90%97%EF%BC%9F"><span class="toc-number">10.16.</span> <span class="toc-text">Q16：Shadowrocket可以用国内机场吗？</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Q17%EF%BC%9AShadowrocket%E5%92%8CQuantumult-X%E5%93%AA%E4%B8%AA%E5%A5%BD%EF%BC%9F"><span class="toc-number">10.17.</span> <span class="toc-text">Q17：Shadowrocket和Quantumult X哪个好？</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Q18%EF%BC%9AShadowrocket%E5%8F%AF%E4%BB%A5%E5%88%86%E4%BA%AB%E7%BB%99%E6%9C%8B%E5%8F%8B%E5%90%97%EF%BC%9F"><span class="toc-number">10.18.</span> <span class="toc-text">Q18：Shadowrocket可以分享给朋友吗？</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Q19%EF%BC%9AShadowrocket%E4%BC%9A%E8%A2%AB%E6%A3%80%E6%B5%8B%E5%88%B0%E5%90%97%EF%BC%9F"><span class="toc-number">10.19.</span> <span class="toc-text">Q19：Shadowrocket会被检测到吗？</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Q20%EF%BC%9AShadowrocket%E5%8F%AF%E4%BB%A5%E9%80%80%E6%AC%BE%E5%90%97%EF%BC%9F"><span class="toc-number">10.20.</span> <span class="toc-text">Q20：Shadowrocket可以退款吗？</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E6%80%BB%E7%BB%93%EF%BC%9AShadowrocket%E4%BD%BF%E7%94%A8%E8%A6%81%E7%82%B9"><span class="toc-number">11.</span> <span class="toc-text">总结：Shadowrocket使用要点</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E6%A0%B8%E5%BF%83%E6%AD%A5%E9%AA%A4%E5%9B%9E%E9%A1%BE"><span class="toc-number">11.1.</span> <span class="toc-text">核心步骤回顾</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E6%8E%A8%E8%8D%90%E9%85%8D%E7%BD%AE"><span class="toc-number">11.2.</span> <span class="toc-text">推荐配置</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E7%9B%B8%E5%85%B3%E9%98%85%E8%AF%BB"><span class="toc-number">12.</span> <span class="toc-text">相关阅读</span></a></li></ol></div></div><div class="card-widget card-recent-post"><div class="item-headline"><i class="fas fa-history"></i><span>最新文章</span></div><div class="aside-list"><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/2026/08/30/best-ladder-tools-2026/" title="2026年最好用的梯子推荐 | 10款梯子工具深度对比测评">2026年最好用的梯子推荐 | 10款梯子工具深度对比测评</a><time datetime="2026-08-30T04:00:00.000Z" title="发表于 2026-08-30 12:00:00">2026-08-30</time></div></div><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/2026/08/30/kuailian-vpn-guide-2026/" title="快连VPN完整使用指南 | 快连是什么？怎么用？2026最新分析">快连VPN完整使用指南 | 快连是什么？怎么用？2026最新分析</a><time datetime="2026-08-30T03:00:00.000Z" title="发表于 2026-08-30 11:00:00">2026-08-30</time></div></div><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/2026/08/30/free-vpn-recommendation-2026/" title="2026年免费VPN推荐 | 免费梯子真的能用吗？完整测评+避坑指南">2026年免费VPN推荐 | 免费梯子真的能用吗？完整测评+避坑指南</a><time datetime="2026-08-30T02:00:00.000Z" title="发表于 2026-08-30 10:00:00">2026-08-30</time></div></div><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/2026/08/25/airport-connection-troubleshooting/" title="机场突然连不上怎么办？8种原因+完整解决方案（2026版）">机场突然连不上怎么办？8种原因+完整解决方案（2026版）</a><time datetime="2026-08-25T10:00:00.000Z" title="发表于 2026-08-25 18:00:00">2026-08-25</time></div></div><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/2026/08/25/shadowrocket-complete-guide-2026/" title="Shadowrocket完整使用教程 | 小火箭配置指南（2026最新版）">Shadowrocket完整使用教程 | 小火箭配置指南（2026最新版）</a><time datetime="2026-08-25T08:00:00.000Z" title="发表于 2026-08-25 16:00:00">2026-08-25</time></div></div></div></div><div class="card-widget ads-wrap"><div class="card-widget card-ad" style="order: 0; padding: 20px 15px;"><div class="item-headline"><i class="fas fa-plane"></i><span> 机场推荐</span></div><div class="card-ad-content" style="display: flex; flex-direction: column; gap: 10px;"><a href="https://5844993lb01.jlcvipaff.cc/#/register?code=KUkfOY13" target="_blank" style="display: flex; align-items: center; padding: 10px 0; text-decoration: none; transition: opacity 0.3s;" onmouseover="this.style.opacity='0.8'" onmouseout="this.style.opacity='1'"><img src="https://jichangdaohang.cc/zb_users/upload/2025/12/20251215221131176580789158628.jpg" alt="广告图标"  style="width: 45px; height: 45px; border-radius: 8px; margin-right: 10px; object-fit: cover; flex-shrink: 0;"><div style="display: flex; flex-direction: column; justify-content: center; line-height: 1.4;"><div style="font-size: 15px; font-weight: bold; color: #8e82fe; margin-bottom: 2px;">极连云特惠专线</div><div style="font-size: 13px; color: #666;">全场 <span style="color: #1a7b4c; font-weight: bold;">8折: JLY888</span></div><div style="font-size: 13px; color: #666;">3年付享 <span style="color: #1a7b4c; font-weight: bold;">48折</span></div></div></a><a href="https://gnt001.gntvipaff.cc/#/?code=j1ufpE44" target="_blank" style="display: flex; align-items: center; padding: 10px 0; text-decoration: none; transition: opacity 0.3s;" onmouseover="this.style.opacity='0.8'" onmouseout="this.style.opacity='1'"><img src="https://i.ibb.co/Gv8rp8rk/photo-2026-04-15-13-24-38.jpg" alt="广告图标"  style="width: 45px; height: 45px; border-radius: 8px; margin-right: 10px; object-fit: cover; flex-shrink: 0;"><div style="display: flex; flex-direction: column; justify-content: center; line-height: 1.4;"><div style="font-size: 15px; font-weight: bold; color: #f39c12; margin-bottom: 2px;">光年梯</div><div style="font-size: 13px; color: #666;">IEPL专线 高速稳定</div><div style="font-size: 13px; color: #666;">月付最低 <span style="color: #e67e22; font-weight: bold;">7.5元</span></div></div></a><a href="https://ccc.jichang.best/#/register?code=o4I4kToe" target="_blank" style="display: flex; align-items: center; padding: 10px 0; text-decoration: none; transition: opacity 0.3s;" onmouseover="this.style.opacity='0.8'" onmouseout="this.style.opacity='1'"><img src="https://i.ibb.co/DHLgNf1d/Gemini-Generated-Image-7oufv07oufv07ouf-1.png" alt="广告图标"  style="width: 45px; height: 45px; border-radius: 8px; margin-right: 10px; object-fit: cover; flex-shrink: 0;"><div style="display: flex; flex-direction: column; justify-content: center; line-height: 1.4;"><div style="font-size: 15px; font-weight: bold; color: #1565c0; margin-bottom: 2px;">瞬云机场</div><div style="font-size: 13px; color: #666;">ANYCAST高速节点 低延迟</div><div style="font-size: 13px; color: #666;">月付最低 <span style="color: #0d47a1; font-weight: bold;">8.25元</span></div></div></a><a href="https://vip.ytjcok.org/#/register?code=qPHQtI9a" target="_blank" style="display: flex; align-items: center; padding: 10px 0; text-decoration: none; transition: opacity 0.3s;" onmouseover="this.style.opacity='0.8'" onmouseout="this.style.opacity='1'"><img src="https://i.ibb.co/1Gt7M65h/yuntu-1-3.png" alt="广告图标"  style="width: 45px; height: 45px; border-radius: 8px; margin-right: 10px; object-fit: cover; flex-shrink: 0;"><div style="display: flex; flex-direction: column; justify-content: center; line-height: 1.4;"><div style="font-size: 15px; font-weight: bold; color: #0288d1; margin-bottom: 2px;">云图</div><div style="font-size: 13px; color: #666;">金融级专线 稳定高速</div><div style="font-size: 13px; color: #666;">月付最低 <span style="color: #0277bd; font-weight: bold;">25元</span></div></div></a><a href="https://w2.whengdl.com/#/register?code=BIGc8qrQ" target="_blank" style="display: flex; align-items: center; padding: 10px 0; text-decoration: none; transition: opacity 0.3s;" onmouseover="this.style.opacity='0.8'" onmouseout="this.style.opacity='1'"><img src="/img/jinyun_logo.png" alt="广告图标"  style="width: 45px; height: 45px; border-radius: 8px; margin-right: 10px; object-fit: cover; flex-shrink: 0;"><div style="display: flex; flex-direction: column; justify-content: center; line-height: 1.4;"><div style="font-size: 15px; font-weight: bold; color: #d4af37; margin-bottom: 2px;">锦云</div><div style="font-size: 13px; color: #666;">公网中转与直连 灵活特惠</div><div style="font-size: 13px; color: #666;">月付最低 <span style="color: #c5a028; font-weight: bold;">6元</span></div></div></a><a href="https://www.lvpn.cc/r/6UQDZT" target="_blank" style="display: flex; align-items: center; padding: 10px 0; text-decoration: none; transition: opacity 0.3s;" onmouseover="this.style.opacity='0.8'" onmouseout="this.style.opacity='1'"><img src="/img/bianjieyun_logo.png" alt="广告图标"  style="width: 45px; height: 45px; border-radius: 8px; margin-right: 10px; object-fit: cover; flex-shrink: 0;"><div style="display: flex; flex-direction: column; justify-content: center; line-height: 1.4;"><div style="font-size: 15px; font-weight: bold; color: #27ae60; margin-bottom: 2px;">边界云</div><div style="font-size: 13px; color: #666;">优质IEPL企业专线 高速稳定</div><div style="font-size: 13px; color: #666;">月付最低 <span style="color: #218838; font-weight: bold;">12.33元</span></div></div></a></div></div></div></div></div></main><footer id="footer"><div class="footer-other"><div class="footer-copyright"></div><div class="footer_custom_text"><div style="margin-bottom: 10px;">友情链接：<a href="https://clash-jichang.com" target="_blank" style="margin: 0 10px; color: inherit; text-decoration: none;">道一博客</a> | <a href="https://jichang365.com" target="_blank" style="margin: 0 10px; color: inherit; text-decoration: none;">云轨导航</a> | <a href="https://jichang-go.com" target="_blank" style="margin: 0 10px; color: inherit; text-decoration: none;">纸飞机日记</a> | <a href="https://vpnstuijian.net" target="_blank" style="margin: 0 10px; color: inherit; text-decoration: none;">VPN推荐</a> | <a href="https://yzrztop.com" target="_blank" style="margin: 0 10px; color: inherit; text-decoration: none;">椰汁网络日志</a> | <a href="https://vpnstuijian.com" target="_blank" style="margin: 0 10px; color: inherit; text-decoration: none;">机场速递</a> | <a href="https://nodehub168.com/" target="_blank" style="margin: 0 10px; color: inherit; text-decoration: none;">云梯指南</a></div>&copy; 2026 August | <a href="/about/">关于我们</a> | <a href="https://t.me/JIAN6688" target="_blank">联系我们</a></div></div></footer></div><div id="rightside"><div id="rightside-config-hide"><button id="readmode" type="button" title="阅读模式"><i class="fas fa-book-open"></i></button><button id="darkmode" type="button" title="日间和夜间模式切换"><i class="fas fa-adjust"></i></button><button id="hide-aside-btn" type="button" title="单栏和双栏切换"><i class="fas fa-arrows-alt-h"></i></button></div><div id="rightside-config-show"><button id="rightside-config" type="button" title="设置"><i class="fas fa-cog fa-spin"></i></button><button class="close" id="mobile-toc-button" type="button" title="目录"><i class="fas fa-list-ul"></i></button><button id="go-up" type="button" title="回到顶部"><span class="scroll-percent"></span><i class="fas fa-arrow-up"></i></button></div></div><div><script src="/js/utils.js?v=5.5.4"></script><script src="/js/main.js?v=5.5.4"></script><div class="js-pjax"></div><script async data-pjax src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script></div></body></html>
