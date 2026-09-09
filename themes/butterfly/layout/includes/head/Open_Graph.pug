@@ -2,8 +2,8 @@ if theme.Open_Graph_meta.enable
   -
     const coverVal = page.cover_type === 'img' ? page.cover : theme.avatar.img
     let desc = page.description || page.content || page.title || config.description
-    if (globalPageType === 'tag') desc = '关于标签「' + page.tag + '」的文章与内容：' + config.description
-    else if (globalPageType === 'category') desc = '分类「' + page.category + '」相关教程与评测：' + config.description
+    if (globalPageType === 'tag') desc = '关于标签「' + page.tag + '」的科学上网教程、机场测评与翻墙指南：' + config.description
+    else if (globalPageType === 'category') desc = '分类「' + page.category + '」相关的最新科学上网教程、机场测评与梯子下载：' + config.description
     else if (globalPageType === 'archive') desc = '所有文章归档列表' + (page.year ? '（' + page.year + '年' + (page.month ? page.month + '月' : '') + '）' : '') + '：' + config.description
     if (page.current > 1) desc = desc + '（第' + page.current + '页）'
     let ogOption = Object.assign({
@@ -15,12 +15,13 @@ if theme.Open_Graph_meta.enable
     }, theme.Open_Graph_meta.option)
   -
   != open_graph(ogOption)
+  - let metaDesc = desc
+  meta(name="description" content=truncate(metaDesc, 160))
 else
   - let description = page.description || page.content || page.title || config.description
-  - if (globalPageType === 'tag') description = '关于标签「' + page.tag + '」的文章与内容：' + config.description
-  - else if (globalPageType === 'category') description = '分类「' + page.category + '」相关教程与评测：' + config.description
+  - if (globalPageType === 'tag') description = '关于标签「' + page.tag + '」的科学上网教程、机场测评与翻墙指南：' + config.description
+  - else if (globalPageType === 'category') description = '分类「' + page.category + '」相关的最新科学上网教程、机场测评与梯子下载：' + config.description
   - else if (globalPageType === 'archive') description = '所有文章归档列表' + (page.year ? '（' + page.year + '年' + (page.month ? page.month + '月' : '') + '）' : '') + '：' + config.description
   - if (page.current > 1) description = description + '（第' + page.current + '页）'
   if description
-    meta(name="description" content=truncate(description, 150))
-
+    meta(name="description" content=truncate(description, 160))
