@@ -1,0 +1,6 @@
+{
+  "buildCommand": "echo 'Static Prebuilt Site'",
+  "outputDirectory": ".",
+  "framework": null,
+  "installCommand": "echo 'No install needed'"
+}
