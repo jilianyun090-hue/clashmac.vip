@@ -5,7 +5,10 @@ const { stripHTML, truncate } = require('hexo-util')
 // Truncates the given content to a specified length, removing HTML tags and replacing newlines with spaces.
 const truncateContent = (content, length, encrypt = false) => {
   if (!content || encrypt) return ''
-  return truncate(stripHTML(content).replace(/\n/g, ' '), { length })
+  const cleanContent = content
+    .replace(/<script[\s\S]*?<\/script>/gi, '')
+    .replace(/<style[\s\S]*?<\/style>/gi, '')
+  return truncate(stripHTML(cleanContent).replace(/\n/g, ' '), { length })
 }
 
 // Generates a post description based on the provided data and theme configuration.
