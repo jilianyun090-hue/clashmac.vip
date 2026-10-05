@@ -36,6 +36,13 @@ meta(name="copyright" content=pageCopyright)
 meta(name ="format-detection" content="telephone=no")
 meta(name="theme-color" content=themeColor)
 
+//- Keep thin taxonomy and pagination URLs crawlable for links, but out of the index.
+- var shouldNoindex = globalPageType === 'tag' || globalPageType === 'archive' || globalPageType === '404' || page.current > 1
+if shouldNoindex
+  meta(name="robots" content="noindex,follow,max-image-preview:large")
+else
+  meta(name="robots" content="index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1")
+
 //- Open_Graph
 include ./head/Open_Graph.pug
 

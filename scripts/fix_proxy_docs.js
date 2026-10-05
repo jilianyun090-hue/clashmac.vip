@@ -20,6 +20,12 @@ const logoNameMap = {
     'v2rayn': 'v2rayN'
 };
 
+function truncateHtmlAttribute(value, maxLength = 155) {
+    const normalized = value.replace(/\s+/g, ' ').trim();
+    const tokens = normalized.match(/&(?:#\d+|#x[0-9a-f]+|[a-z]+);|./giu) || [];
+    return tokens.slice(0, maxLength).join('');
+}
+
 function processFile(filepath) {
     console.log(`Processing ${filepath}...`);
     let content = fs.readFileSync(filepath, 'utf8');
@@ -54,6 +60,51 @@ function processFile(filepath) {
     // 4. Canonical URLs and og:url cleanup (remove trailing index.html)
     content = content.replace(/<link rel="canonical" href="https:\/\/clashmac\.vip\/docs\/proxy\/([^/]+)\/index\.html">/gi, '<link rel="canonical" href="https://clashmac.vip/docs/proxy/$1/">');
     content = content.replace(/<meta property="og:url" content="https:\/\/clashmac\.vip\/docs\/proxy\/([^/]+)\/index\.html">/gi, '<meta property="og:url" content="https://clashmac.vip/docs/proxy/$1/">');
+
+    // Keep static documentation metadata aligned with the Hexo pages.
+    content = content.replace(/<meta name="description" content="([^"]*)">/i, (match, description) => {
+        return `<meta name="description" content="${truncateHtmlAttribute(description)}">`;
+    });
+
+    if (!/<meta name="robots"/i.test(content)) {
+        content = content.replace(
+            /(<meta name="theme-color" content="[^"]*">)/i,
+            '$1<meta name="robots" content="index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1">'
+        );
+    }
+
+    // Replace stale empty JSON-LD with a valid TechArticle entity.
+    content = content.replace(/<script type="application\/ld\+json">[\s\S]*?<\/script>/i, '');
+    const titleMatch = content.match(/<title>([\s\S]*?)<\/title>/i);
+    const descriptionMatch = content.match(/<meta name="description" content="([^"]*)">/i);
+    const canonicalMatch = content.match(/<link rel="canonical" href="([^"]+)">/i);
+    if (titleMatch && descriptionMatch && canonicalMatch) {
+        const structuredData = JSON.stringify({
+            '@context': 'https://schema.org',
+            '@type': 'TechArticle',
+            headline: titleMatch[1].trim(),
+            description: descriptionMatch[1].trim(),
+            url: canonicalMatch[1],
+            mainEntityOfPage: {
+                '@type': 'WebPage',
+                '@id': canonicalMatch[1]
+            },
+            inLanguage: 'zh-CN',
+            author: {
+                '@type': 'Person',
+                name: 'August'
+            },
+            publisher: {
+                '@type': 'Organization',
+                name: '机场推荐与梯子VPN推荐',
+                url: 'https://clashmac.vip/'
+            }
+        });
+        content = content.replace(
+            /(<link rel="shortcut icon")/i,
+            `<script type="application/ld+json">${structuredData}</script>$1`
+        );
+    }
 
     // 5. Clean internal links pointing to index.html under docs/proxy/
     content = content.replace(/href="\/docs\/proxy\/([^/]+)\/index\.html"/gi, 'href="/docs/proxy/$1/"');

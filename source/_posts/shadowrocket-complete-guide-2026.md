@@ -1,18 +1,18 @@
 ---
 title: Shadowrocket完整使用教程 | 小火箭配置指南（2026最新版）
 date: 2026-08-25 16:00:00
-updated: 2026-08-25 16:00:00
+updated: 2026-10-06 10:00:00
 tags: [Shadowrocket, 小火箭, iOS翻墙, iPhone翻墙, Shadowrocket教程, 苹果翻墙, 科学上网, 客户端教程, 机场推荐, 翻墙, 科学上网教程]
 categories: [客户端教程]
 keywords: Shadowrocket, 小火箭, Shadowrocket教程, 小火箭教程, iOS翻墙, iPhone翻墙, Shadowrocket配置, 小火箭使用方法
-description: "Shadowrocket（小火箭）完整使用教程：从美区ID获取、App下载到机场订阅导入、规则配置、高级功能全覆盖。2026年最新iOS翻墙指南，20个常见问题解答。"
+description: "Shadowrocket（小火箭）完整使用教程：说明正规下载渠道、机场订阅导入、节点选择、规则与全局模式、按应用分流、证书与隐私注意事项，以及 iPhone/iPad 常见连接错误排查。适合首次配置和需要检查现有设置的 iOS 用户。"
 ---
 
 Shadowrocket（小火箭）是iOS平台最强大、最受欢迎的科学上网工具。如果你刚买了iPhone或iPad，想要翻墙访问YouTube、ChatGPT、Netflix，那么Shadowrocket绝对是最佳选择。
 
 > 💡 **核心导航链接**：
 > - [2026便宜稳定机场梯子推荐完整列表](/2026/02/20/airport-recommendations/)
-> - [全平台科学上网客户端下载汇总](/software/)
+> - [全平台科学上网客户端下载汇总](/2026/03/29/software/)
 > - [2026年梯子软件选购指南](/2026/09/09/best-ladder-vpn-recommendations-2026/)
 
 

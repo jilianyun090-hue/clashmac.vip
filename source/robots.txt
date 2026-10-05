@@ -1,8 +1,7 @@
 User-agent: *
 Allow: /
-Disallow: /js/
-Disallow: /css/
-Disallow: /fonts/
+
+# CSS、JavaScript 与字体保持可抓取，便于搜索引擎完整渲染页面。
 
 # --- International AI & Search Crawlers ---
 # OpenAI (ChatGPT)

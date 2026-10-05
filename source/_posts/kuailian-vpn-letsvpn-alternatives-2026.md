@@ -114,7 +114,7 @@ description: "【2026年10月最新更新】快连VPN (LetsVPN / let's vpn / let
 相比快连VPN，使用机场订阅结合标准客户端不仅更快更便宜，而且配置非常简单：
 
 ### 1. Windows / macOS 平台 (使用 Clash Verge Rev)
-1. 下载并安装 [Clash Verge Rev 客户端](https://clashmac.vip/software/)。
+1. 下载并安装 [Clash Verge Rev 客户端](/2026/03/29/software/)。
 2. 登录你购买的机场后台，点击 **“一键导入 Clash 订阅”**。
 3. 在 Clash Verge 中启用 **“系统代理”** 与 **“TUN 模式”** 即可全自动流畅上网。
 
@@ -150,4 +150,4 @@ description: "【2026年10月最新更新】快连VPN (LetsVPN / let's vpn / let
 > 延伸阅读：
 > - [2026最新高性价比便宜稳定机场推荐完整清单](https://clashmac.vip/2026/02/20/airport-recommendations/)
 > - [2026年梯子软件哪个好用？高性价比机场梯子推荐](https://clashmac.vip/2026/09/09/best-ladder-vpn-recommendations-2026/)
-> - [Clash Verge Rev 跨平台配置与下载使用教程](https://clashmac.vip/software/)
+> - [Clash Verge Rev 跨平台配置与下载使用教程](/2026/03/29/software/)

@@ -3,9 +3,10 @@ if theme.Open_Graph_meta.enable
     const coverVal = page.cover_type === 'img' ? page.cover : theme.avatar.img
     let desc = page.description || page.content || page.title || config.description
     if (globalPageType === 'tag') desc = '关于标签「' + page.tag + '」的科学上网教程、机场测评与翻墙指南：' + config.description
-    else if (globalPageType === 'category') desc = '分类「' + page.category + '」相关的最新科学上网教程、机场测评与梯子下载：' + config.description
+    else if (globalPageType === 'category') desc = '「' + page.category + '」分类收录本站相关教程、工具指南、故障排查与选购知识，按发布时间持续更新，帮助读者快速找到对应主题的实用内容。'
     else if (globalPageType === 'archive') desc = '所有文章归档列表' + (page.year ? '（' + page.year + '年' + (page.month ? page.month + '月' : '') + '）' : '') + '：' + config.description
     if (page.current > 1) desc = desc + '（第' + page.current + '页）'
+    desc = strip_html(desc).replace(/\s+/g, ' ').trim()
     let ogOption = Object.assign({
       type: globalPageType === 'post' ? 'article' : 'website',
       image: coverVal ? full_url_for(coverVal) : '',
@@ -15,13 +16,12 @@ if theme.Open_Graph_meta.enable
     }, theme.Open_Graph_meta.option)
   -
   != open_graph(ogOption)
-  - let metaDesc = desc
-  meta(name="description" content=truncate(metaDesc, 160))
 else
   - let description = page.description || page.content || page.title || config.description
   - if (globalPageType === 'tag') description = '关于标签「' + page.tag + '」的科学上网教程、机场测评与翻墙指南：' + config.description
-  - else if (globalPageType === 'category') description = '分类「' + page.category + '」相关的最新科学上网教程、机场测评与梯子下载：' + config.description
+  - else if (globalPageType === 'category') description = '「' + page.category + '」分类收录本站相关教程、工具指南、故障排查与选购知识，按发布时间持续更新，帮助读者快速找到对应主题的实用内容。'
   - else if (globalPageType === 'archive') description = '所有文章归档列表' + (page.year ? '（' + page.year + '年' + (page.month ? page.month + '月' : '') + '）' : '') + '：' + config.description
   - if (page.current > 1) description = description + '（第' + page.current + '页）'
+  - description = strip_html(description).replace(/\s+/g, ' ').trim()
   if description
     meta(name="description" content=truncate(description, 160))

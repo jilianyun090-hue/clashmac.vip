@@ -12,20 +12,38 @@ if theme.structured_data
       const author = page.copyright_author || config.author
       const authorHrefVal = page.copyright_author_href || theme.post_copyright.author_href || config.url
       const authorHref = full_url_for(authorHrefVal)
+      const description = strip_html(page.description || page.excerpt || '').replace(/\s+/g, ' ').trim()
+      const publisherLogoVal = theme.avatar && theme.avatar.img ? full_url_for(theme.avatar.img) : image
 
       const jsonLd = {
         "@context": "https://schema.org",
         "@type": "BlogPosting",
         "headline": title,
         "url": url,
+        "mainEntityOfPage": {
+          "@type": "WebPage",
+          "@id": url
+        },
         "image": image,
+        "description": description,
+        "inLanguage": config.language || 'zh-CN',
+        "keywords": page.keywords || (page.tags && page.tags.data ? page.tags.data.map(tag => tag.name).join(', ') : ''),
         "datePublished": datePublished,
         "dateModified": dateModified,
         "author": [{
           "@type": "Person",
           "name": author,
           "url": authorHref
-        }]
+        }],
+        "publisher": {
+          "@type": "Organization",
+          "name": config.title,
+          "url": full_url_for('/'),
+          "logo": publisherLogoVal ? {
+            "@type": "ImageObject",
+            "url": publisherLogoVal
+          } : undefined
+        }
       }
 
       jsonLdScript = JSON.stringify(jsonLd, null, 2)
@@ -63,5 +81,6 @@ if theme.structured_data
       }
     -
 
-  script(type="application/ld+json").
-    !{jsonLdScript}
+  if typeof jsonLdScript !== 'undefined' && jsonLdScript
+    script(type="application/ld+json").
+      !{jsonLdScript}

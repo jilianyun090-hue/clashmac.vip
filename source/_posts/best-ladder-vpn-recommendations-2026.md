@@ -92,7 +92,7 @@ description: "【2026年10月最新更新】梯子软件哪个好用？哪款翻
 
 ### 1. Windows 平台推荐：Clash Verge Rev
 - **特点**：界面美观现代化、内置中文、支持 TUN 虚拟网卡模式（游戏与全局代理无缝切换）。
-- **获取教程**：查看 [Clash Verge Rev 下载与配置指南](https://clashmac.vip/software/)。
+- **获取教程**：查看 [Clash Verge Rev 下载与配置指南](/2026/03/29/software/)。
 
 ### 2. macOS 苹果电脑推荐：Clash Verge / Sing-box / Surge
 - **特点**：原生支持 M 系列芯片（M1/M2/M3/M4），系统资源占用低，支持智能分流。
@@ -132,4 +132,4 @@ description: "【2026年10月最新更新】梯子软件哪个好用？哪款翻
 > 延伸阅读：
 > - [2026快连VPN(LetsVPN)最新评测与高性价比替代方案](https://clashmac.vip/2026/09/09/kuailian-vpn-letsvpn-alternatives-2026/)
 > - [2026便宜稳定机场测评推荐完整列表](https://clashmac.vip/2026/02/20/airport-recommendations/)
-> - [科学上网主流客户端软件下载汇总](https://clashmac.vip/software/)
+> - [科学上网主流客户端软件下载汇总](/2026/03/29/software/)
