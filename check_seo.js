@@ -121,6 +121,13 @@ if (fs.existsSync(sitemapPath)) {
     sitemapUrls = extractAll(sitemap, /<loc>([^<]+)<\/loc>/gi);
 }
 const thinTaxonomyInSitemap = sitemapUrls.filter(url => /\/(tags|archives)\//i.test(url));
+const nonPageSitemapUrls = sitemapUrls.filter(url => {
+    try {
+        return /\.[a-z0-9]+$/i.test(new URL(url).pathname) && !/\.html?$/i.test(new URL(url).pathname);
+    } catch {
+        return true;
+    }
+});
 const brokenInternalLinks = [];
 for (const [href, sources] of internalLinks.entries()) {
     let decodedPath;
@@ -153,6 +160,7 @@ console.log(`Missing canonicals: ${issues.missingCanonical.length}`);
 console.log(`Invalid JSON-LD blocks: ${issues.invalidJsonLd.length}`);
 console.log(`Missing image alt attributes: ${issues.missingAlts.length}`);
 console.log(`Tag/archive URLs in sitemap: ${thinTaxonomyInSitemap.length}`);
+console.log(`Non-HTML file URLs in sitemap: ${nonPageSitemapUrls.length}`);
 console.log(`Broken internal links: ${brokenInternalLinks.length}`);
 
 printItems('Duplicate titles', duplicateTitles, ([title, files]) => `${title} -> ${files.join(', ')}`);
@@ -168,6 +176,7 @@ printItems('Unexpected H1 count', issues.h1Count, item => `${item.file} (${item.
 printItems('Invalid JSON-LD', issues.invalidJsonLd, item => `${item.file}: ${item.error}`);
 printItems('Missing image alt', issues.missingAlts, item => `${item.file}: ${item.tag}`);
 printItems('Thin taxonomy URLs in sitemap', thinTaxonomyInSitemap, item => item);
+printItems('Non-HTML file URLs in sitemap', nonPageSitemapUrls, item => item);
 printItems('Broken internal links', brokenInternalLinks, item => `${item.href} <- ${item.sources.slice(0, 3).join(', ')}`);
 
 const criticalCount = duplicateTitles.length
@@ -178,6 +187,7 @@ const criticalCount = duplicateTitles.length
     + issues.missingCanonical.length
     + issues.invalidJsonLd.length
     + thinTaxonomyInSitemap.length
+    + nonPageSitemapUrls.length
     + brokenInternalLinks.length;
 
 if (criticalCount > 0) {

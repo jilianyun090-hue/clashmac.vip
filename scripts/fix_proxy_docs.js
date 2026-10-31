@@ -157,6 +157,13 @@ if (typeof hexo !== 'undefined') {
         const sitemapPath = path.join(hexo.public_dir, 'sitemap.xml');
         if (fs.existsSync(sitemapPath)) {
             let sitemapContent = fs.readFileSync(sitemapPath, 'utf8');
+            const originalSitemap = sitemapContent;
+
+            // vercel.json is deployment configuration, not an indexable HTML page.
+            sitemapContent = sitemapContent.replace(
+                /\s*<url>\s*<loc>https:\/\/clashmac\.vip\/vercel\.json<\/loc>[\s\S]*?<\/url>/gi,
+                ''
+            );
 
             const extraDirs = [
                 'docs/proxy/clash-meta-for-android',
@@ -189,8 +196,14 @@ if (typeof hexo !== 'undefined') {
 
             if (xmlToInject) {
                 sitemapContent = sitemapContent.replace('</urlset>', xmlToInject + '</urlset>');
+            }
+
+            if (sitemapContent !== originalSitemap) {
                 fs.writeFileSync(sitemapPath, sitemapContent, 'utf8');
-                console.log('[Sitemap Injector] Successfully injected extra paths into sitemap.xml');
+            }
+
+            if (xmlToInject) {
+                console.log('[Sitemap Injector] Updated extra paths in sitemap.xml');
             } else {
                 console.log('[Sitemap Injector] Extra paths already present or nothing to inject.');
             }
