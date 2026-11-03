@@ -18,6 +18,8 @@ function sanitize(filePath) {
     const stickyMatch = frontMatter.match(/sticky:\s*([^\n]+)/);
     const keywordsMatch = frontMatter.match(/keywords:\s*([^\n]+)/);
     const descriptionMatch = frontMatter.match(/description:\s*([^\n]+)/);
+    // Preserve the whole multi-line faq: block (used for FAQPage schema)
+    const faqMatch = frontMatter.match(/\nfaq:\n([\s\S]*?)(?=\n[a-zA-Z_]+:\s|\n*$)/);
     
     // Extract tags - handle both array and list formats
     let tags = [];
@@ -74,9 +76,9 @@ function sanitize(filePath) {
         }
     }
 
-    // Combine tags, category, and standard keywords for better SEO and rich Tag Cloud
-    const globalTags = ['科学上网', '机场推荐', '翻墙', '科学上网教程'];
-    let allTags = new Set([...tags, targetCat, ...globalTags]);
+    // Keep tags as authored (deduped). Do NOT force-inject global tags —
+    // over-stuffing every post with the same 4 tags hurts SEO.
+    let allTags = new Set(tags);
     tags = Array.from(allTags);
 
     // Reconstruct Front Matter - preserving all important fields
@@ -103,7 +105,14 @@ function sanitize(filePath) {
     
     // Preserve sticky
     if (stickyMatch) fmLines.push(`sticky: ${stickyMatch[1].trim()}`);
-    
+
+    // Preserve faq block (for FAQPage structured data)
+    if (faqMatch) {
+        fmLines.push('faq:');
+        const faqBody = faqMatch[1].replace(/\s+$/, '');
+        faqBody.split('\n').forEach(line => fmLines.push(line));
+    }
+
     fmLines.push('---');
 
     const newContent = fmLines.join('\n') + '\n\n' + body;

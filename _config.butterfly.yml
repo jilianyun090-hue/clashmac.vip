@@ -19,11 +19,16 @@ nav:
 
 menu:
   首页: / || fas fa-home
-  机场推荐导航: /2026/02/20/airport-recommendations/ || fas fa-plane
+  机场推荐总榜: /2026/02/20/airport-recommendations/ || fas fa-plane
+  机场专题:
+    便宜机场: /airport-budget/ || fas fa-tags
+    稳定机场: /airport-stable/ || fas fa-shield-halved
+    流媒体机场: /airport-streaming/ || fas fa-play-circle
+    AI机场: /airport-ai/ || fas fa-robot
   软件下载教程: /2026/03/29/software/ || fas fa-download
   科学上网知识库: /categories/科学上网知识库/ || fas fa-book
-  AI工具: /categories/AI工具/ || fas fa-robot
-  流媒体专区: /categories/流媒体专区/ || fas fa-play-circle
+  AI工具: /categories/AI工具/ || fas fa-microchip
+  流媒体专区: /categories/流媒体专区/ || fas fa-film
 
 # --------------------------------------
 # Code Blocks Settings

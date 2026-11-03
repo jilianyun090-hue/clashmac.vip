@@ -47,6 +47,50 @@ if theme.structured_data
       }
 
       jsonLdScript = JSON.stringify(jsonLd, null, 2)
+
+      // BreadcrumbList: 首页 > 分类 > 文章
+      const crumbs = [{
+        "@type": "ListItem",
+        "position": 1,
+        "name": config.title.split(' | ')[0],
+        "item": full_url_for('/')
+      }]
+      let crumbPos = 2
+      if (page.categories && page.categories.data && page.categories.data.length) {
+        const cat = page.categories.data[page.categories.data.length - 1]
+        crumbs.push({
+          "@type": "ListItem",
+          "position": crumbPos++,
+          "name": cat.name,
+          "item": full_url_for(cat.path)
+        })
+      }
+      crumbs.push({
+        "@type": "ListItem",
+        "position": crumbPos,
+        "name": title
+      })
+      breadcrumbScript = JSON.stringify({
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": crumbs
+      }, null, 2)
+
+      // FAQPage: 由文章 front-matter 的 faq: [{q, a}] 生成
+      if (page.faq && page.faq.length) {
+        faqScript = JSON.stringify({
+          "@context": "https://schema.org",
+          "@type": "FAQPage",
+          "mainEntity": page.faq.map(item => ({
+            "@type": "Question",
+            "name": item.q,
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": strip_html(item.a || '').replace(/\s+/g, ' ').trim()
+            }
+          }))
+        }, null, 2)
+      }
     -
 
   else if is_home() && (!page.current || page.current === 1)
@@ -84,3 +128,11 @@ if theme.structured_data
   if typeof jsonLdScript !== 'undefined' && jsonLdScript
     script(type="application/ld+json").
       !{jsonLdScript}
+
+  if typeof breadcrumbScript !== 'undefined' && breadcrumbScript
+    script(type="application/ld+json").
+      !{breadcrumbScript}
+
+  if typeof faqScript !== 'undefined' && faqScript
+    script(type="application/ld+json").
+      !{faqScript}
