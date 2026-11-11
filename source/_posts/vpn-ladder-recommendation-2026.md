@@ -77,7 +77,7 @@ sticky: 9999
 
 #### 2. 极连云 - 8元起
 
-**官网：** [立即注册](https://haozevpn.jlyvipaff.com/#/?code=KUKfOY13)
+**官网：** [立即注册](https://haozevpn.jlyvipaff.com/#/?code=6aTAi9bW)
 
 **最低套餐：** 入门版 60GB/月，¥8/月
 
@@ -131,7 +131,7 @@ sticky: 9999
 
 #### 5. 边界云 - 12.33元起（年付）
 
-**官网：** [立即注册](https://www.lvpn.cc/r/6UQDZT)（优惠码：**zevpn**）
+**官网：** [立即注册](https://www.bianjiecloud.com/r/6UQDZT)（优惠码：**zevpn**）
 
 **最低套餐：** Lite 50GB/月，¥148/年（折合12.33元/月）
 
@@ -186,10 +186,10 @@ sticky: 9999
 | 梯子名称 | 最低月费 | 流量 | 线路类型 | 适用人群 | 官网 |
 |---------|---------|------|---------|---------|------|
 | **飞猫云** | 7元 | 50GB | IPLC专线 | 学生党 | [注册](https://flycat.flycatvipaff.cc/#/?code=1arEKHqh) |
-| **极连云** | 8元 | 60GB | IEPL专线 | 轻度用户 | [注册](https://haozevpn.jlyvipaff.com/#/?code=KUKfOY13) |
+| **极连云** | 8元 | 60GB | IEPL专线 | 轻度用户 | [注册](https://haozevpn.jlyvipaff.com/#/?code=6aTAi9bW) |
 | **光年梯** | 7.42元 | 59GB | 自有机房 | 长期使用 | [注册](https://gnt001.gntvipaff.cc/#/?code=j1ufpE44) |
 | **云图** | 25元 | 150GB | 金融级专线 | 稳定优先 | [注册](https://vip.ytjcok.org/#/register?code=qPHQtI9a) |
-| **边界云** | 12.33元 | 50GB | IEPL专线 | 性价比 | [注册](https://www.lvpn.cc/r/6UQDZT) |
+| **边界云** | 12.33元 | 50GB | IEPL专线 | 性价比 | [注册](https://www.bianjiecloud.com/r/6UQDZT) |
 | **隐云** | 25元 | 150GB | IPLC/IEPL | 智能分流 | [注册](https://wkacc.xyz/?code=711d7afb) |
 | **全球云** | 20元 | 120GB | IEPL/IPLC | 节点多 | [注册](https://haozevpn.gcvipaff.cc/#/?code=WRQJc2v4) |
 
@@ -447,7 +447,7 @@ sticky: 9999
 如果只推荐3个，我会选择：
 
 🥇 **极连云** - 8元起，月付灵活，新手首选  
-[立即注册](https://haozevpn.jlyvipaff.com/#/?code=KUKfOY13)
+[立即注册](https://haozevpn.jlyvipaff.com/#/?code=6aTAi9bW)
 
 🥈 **飞猫云** - 7元起，学生党最爱，性价比之王  
 [立即注册](https://flycat.flycatvipaff.cc/#/?code=1arEKHqh)

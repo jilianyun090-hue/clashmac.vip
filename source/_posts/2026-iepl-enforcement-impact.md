@@ -142,7 +142,7 @@ description: "2026年 IEPL 专线整改事件知识库：梳理广东电信相�
 - 运营团队在海外，物理安全性高
 - 多国入口部署，不依赖单一地区
 - 技术储备充足，应对能力强
-- [极连云官网](https://haozevpn.jlyvipaff.com/#/?code=KUKfOY13)
+- [极连云官网](https://haozevpn.jlyvipaff.com/#/?code=6aTAi9bW)
 
 ### 多线路混合部署的机场
 

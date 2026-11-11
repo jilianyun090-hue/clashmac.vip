@@ -437,7 +437,7 @@ WiFi连不上 → 试试手机热点
 **备用机场推荐：**
 
 1. **极连云** - 8元起
-   [立即注册](https://haozevpn.jlyvipaff.com/#/?code=KUKfOY13)
+   [立即注册](https://haozevpn.jlyvipaff.com/#/?code=6aTAi9bW)
    
 2. **光年梯** - 7.42元起
    [立即注册](https://gnt001.gntvipaff.cc/#/?code=j1ufpE44)

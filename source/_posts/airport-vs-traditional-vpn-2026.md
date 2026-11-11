@@ -150,7 +150,7 @@ description: "机场订阅、商业VPN和企业VPN并非同一种服务。本文
 
 **推荐机场价格示例：**
 
-- **极连云**：8元/60GB/月，[立即注册](https://haozevpn.jlyvipaff.com/#/?code=KUKfOY13)
+- **极连云**：8元/60GB/月，[立即注册](https://haozevpn.jlyvipaff.com/#/?code=6aTAi9bW)
 - **光年梯**：7.42元/59GB/月（年付），[立即注册](https://gnt001.gntvipaff.cc/#/?code=j1ufpE44)
 - **飞猫云**：7元/50GB/月（学生版年付），[立即注册](https://flycat.flycatvipaff.cc/#/?code=1arEKHqh)
 
@@ -254,7 +254,7 @@ description: "机场订阅、商业VPN和企业VPN并非同一种服务。本文
 
 - **理由**：速度快、价格低、稳定性好
 - **推荐机场**：
-  - [极连云](https://haozevpn.jlyvipaff.com/#/?code=KUKfOY13)（8元起，IEPL专线）
+  - [极连云](https://haozevpn.jlyvipaff.com/#/?code=6aTAi9bW)（8元起，IEPL专线）
   - [云图](https://vip.ytjcok.org/#/register?code=qPHQtI9a)（25元/月，金融级专线）
   - [飞猫云](https://flycat.flycatvipaff.cc/#/?code=1arEKHqh)（7元起，学生友好）
 
@@ -304,7 +304,7 @@ description: "机场订阅、商业VPN和企业VPN并非同一种服务。本文
 
 **推荐组合：**
 - **主力机场**：20元/月（200-300GB流量）
-  - [极连云标准版](https://haozevpn.jlyvipaff.com/#/?code=KUKfOY13)：15元/150GB
+  - [极连云标准版](https://haozevpn.jlyvipaff.com/#/?code=6aTAi9bW)：15元/150GB
   - [云图岚图](https://vip.ytjcok.org/#/register?code=qPHQtI9a)：25元/150GB（用优惠码`yt88`打8折）
 
 ### 备用方案：低价机场或VPN（月付）
@@ -396,7 +396,7 @@ A：强烈不推荐：
 
 立即开始你的科学上网之旅：
 
-🚀 [极连云 - IEPL专线，8元起](https://haozevpn.jlyvipaff.com/#/?code=KUKfOY13)  
+🚀 [极连云 - IEPL专线，8元起](https://haozevpn.jlyvipaff.com/#/?code=6aTAi9bW)  
 🚀 [光年梯 - 老牌稳定，7.42元起](https://gnt001.gntvipaff.cc/#/?code=j1ufpE44)  
 🚀 [云图 - 金融级专线，25元起](https://vip.ytjcok.org/#/register?code=qPHQtI9a)（优惠码：`yt88`）
 

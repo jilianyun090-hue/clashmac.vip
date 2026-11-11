@@ -239,7 +239,7 @@ A：Mihomo对流媒体检测更严格，需要：
 - 全IEPL专线，速度顶级
 - 支持Clash/Mihomo订阅一键导入
 - 月付8元起，性价比极高
-- [立即注册](https://haozevpn.jlyvipaff.com/#/?code=KUKfOY13)
+- [立即注册](https://haozevpn.jlyvipaff.com/#/?code=6aTAi9bW)
 
 **光年梯**
 - 自有机房，全球节点覆盖

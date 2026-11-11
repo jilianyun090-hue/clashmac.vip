@@ -15,7 +15,7 @@ faq:
     a: "极连云有海外技术团队 7×24 维护，节点异常自动切换。和所有机场一样，建议先月付验证稳定性再考虑长期套餐，并常备一个备用机场。"
 ---
 
-> **评测整理时间**：2026年11月3日 · 价格和解锁能力可能调整，下单前请核对 [极连云官网](https://haozevpn.jlyvipaff.com/#/?code=KUKfOY13) 当前信息。
+> **评测整理时间**：2026年11月3日 · 价格和解锁能力可能调整，下单前请核对 [极连云官网](https://haozevpn.jlyvipaff.com/#/?code=6aTAi9bW) 当前信息。
 
 **极连云怎么样，值不值得买？** 一句话结论：极连云是一家以 **IEPL 专线 + 高性价比** 为定位的机场，8 元 60G 的入门价适合预算有限又想要专线稳定性的用户，是快连 VPN 停运后值得比较的平替之一。
 
@@ -44,7 +44,7 @@ faq:
 
 ## 怎么买和使用
 
-1. 打开 [极连云官网](https://haozevpn.jlyvipaff.com/#/?code=KUKfOY13) 注册，选择套餐
+1. 打开 [极连云官网](https://haozevpn.jlyvipaff.com/#/?code=6aTAi9bW) 注册，选择套餐
 2. 复制订阅链接，导入客户端（[Clash Verge Rev 教程](/2026/03/29/clash-verge-rev-tutorial/) / [Shadowrocket 教程](/2026/08/25/shadowrocket-complete-guide-2026/)）
 3. 选择节点，开启代理
 
