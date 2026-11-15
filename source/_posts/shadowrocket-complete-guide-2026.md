@@ -145,7 +145,7 @@ Shadowrocket只是一个客户端工具，还需要配合机场服务才能翻�
 
 #### 🥈 云图 - 25元起
 
-**官网：** [立即注册](https://vip.ytjcok.org/#/register?code=qPHQtI9a)  
+**官网：** [立即注册](https://super.yuntujc.cc/#/register?code=qPHQtI9a)  
 **优惠码：** `yt88` 享8折
 
 **推荐理由：**
@@ -617,7 +617,7 @@ https://raw.githubusercontent.com/h2y/Shadowrocket-ADBlock-Rules/master/sr_top50
 
 **机场推荐：**
 - 首选：[极连云](https://haozevpn.jlyvipaff.com/#/?code=6aTAi9bW)（8元起）
-- 备选：[云图](https://vip.ytjcok.org/#/register?code=qPHQtI9a)（25元，码`yt88`）
+- 备选：[云图](https://super.yuntujc.cc/#/register?code=qPHQtI9a)（25元，码`yt88`）
 
 **规则推荐：**
 - 新手：使用默认规则

@@ -99,7 +99,7 @@ faq:
 | <font color="red">极连云</font> | 8元 60G/月 | [注册](https://haozevpn.jlyvipaff.com/#/?code=6aTAi9bW) |
 | <font color="red">光年梯</font> | 7.42元 59G/月(年付) | [注册](https://gnt001.gntvipaff.cc/#/?code=j1ufpE44) |
 | <font color="red">飞猫云</font> | 7元 50G/月(年付) | [注册](https://flycat.flycatvipaff.cc/#/?code=1arEKHqh) |
-| <font color="red">云图</font> | 25元 150G/月 | [注册](https://vip.ytjcok.org/#/register?code=qPHQtI9a) |
+| <font color="red">云图</font> | 25元 150G/月 | [注册](https://super.yuntujc.cc/#/register?code=qPHQtI9a) |
 | 9云机场 | 6元 150G/月 | [注册](https://888.jiuyundl.com/#/register?code=50Qzzzh8) |
 | 极速cloud | 8.9元 100G/月 | [注册](https://august.jsjc456789.com) |
 | 灯塔机场 | 16.6元 120G/月(年付) | [注册](https://www.dengta12.com/reg?ref=DlYrVig6) |
@@ -216,7 +216,7 @@ faq:
 
 ### 4. 云图
 
-云图官网地址：[点击进入官网](https://vip.ytjcok.org/#/register?code=qPHQtI9a)
+云图官网地址：[点击进入官网](https://super.yuntujc.cc/#/register?code=qPHQtI9a)
 
 最便宜的订阅为 **岚图 ¥25.00/月付（150G流量）**。
 
@@ -232,7 +232,7 @@ faq:
 | 50g不限时流量 | 50G | ¥78.00 | 一次性 | 限时套餐，5台设备，1倍率 |
 | 100g不限时流量 | 100G | ¥119.00 | 一次性 | 限时套餐，5台设备，1倍率 |
 
-[👉 立即注册云图](https://vip.ytjcok.org/#/register?code=qPHQtI9a)
+[👉 立即注册云图](https://super.yuntujc.cc/#/register?code=qPHQtI9a)
 
 📖 **深度评测**：[云图机场怎么样？金融级专线与套餐价格](/2026/11/03/yuntu-review/)
 

@@ -113,7 +113,7 @@ sticky: 9999
 
 #### 4. 云图 - 25元起
 
-**官网：** [立即注册](https://vip.ytjcok.org/#/register?code=qPHQtI9a)
+**官网：** [立即注册](https://super.yuntujc.cc/#/register?code=qPHQtI9a)
 
 **最低套餐：** 岚图 150GB/月，¥25/月
 
@@ -188,7 +188,7 @@ sticky: 9999
 | **飞猫云** | 7元 | 50GB | IPLC专线 | 学生党 | [注册](https://flycat.flycatvipaff.cc/#/?code=1arEKHqh) |
 | **极连云** | 8元 | 60GB | IEPL专线 | 轻度用户 | [注册](https://haozevpn.jlyvipaff.com/#/?code=6aTAi9bW) |
 | **光年梯** | 7.42元 | 59GB | 自有机房 | 长期使用 | [注册](https://gnt001.gntvipaff.cc/#/?code=j1ufpE44) |
-| **云图** | 25元 | 150GB | 金融级专线 | 稳定优先 | [注册](https://vip.ytjcok.org/#/register?code=qPHQtI9a) |
+| **云图** | 25元 | 150GB | 金融级专线 | 稳定优先 | [注册](https://super.yuntujc.cc/#/register?code=qPHQtI9a) |
 | **边界云** | 12.33元 | 50GB | IEPL专线 | 性价比 | [注册](https://www.bianjiecloud.com/r/6UQDZT) |
 | **隐云** | 25元 | 150GB | IPLC/IEPL | 智能分流 | [注册](https://wkacc.xyz/?code=711d7afb) |
 | **全球云** | 20元 | 120GB | IEPL/IPLC | 节点多 | [注册](https://haozevpn.gcvipaff.cc/#/?code=WRQJc2v4) |
@@ -453,7 +453,7 @@ sticky: 9999
 [立即注册](https://flycat.flycatvipaff.cc/#/?code=1arEKHqh)
 
 🥉 **云图** - 25元起，企业级稳定，适合主力使用  
-[立即注册](https://vip.ytjcok.org/#/register?code=qPHQtI9a)（优惠码：`yt88`）
+[立即注册](https://super.yuntujc.cc/#/register?code=qPHQtI9a)（优惠码：`yt88`）
 
 ### 最佳梯子组合方案
 

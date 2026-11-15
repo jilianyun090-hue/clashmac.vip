@@ -258,7 +258,7 @@ A：Mihomo对流媒体检测更严格，需要：
 - 金融级专线，企业级稳定性
 - ChatGPT/Netflix全解锁
 - 使用优惠码 `yt88` 享8折
-- [立即注册](https://vip.ytjcok.org/#/register?code=qPHQtI9a)
+- [立即注册](https://super.yuntujc.cc/#/register?code=qPHQtI9a)
 
 查看完整机场推荐列表：[2026年机场推荐](/2026/02/20/airport-recommendations/)
 

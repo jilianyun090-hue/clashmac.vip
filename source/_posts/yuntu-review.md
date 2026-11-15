@@ -15,7 +15,7 @@ faq:
     a: "云图提供八折优惠码 yt88，下单时填写可享 8 折。价格和优惠以官网当前为准。"
 ---
 
-> **评测整理时间**：2026年11月3日 · 价格和优惠码可能调整，下单前请核对 [云图官网](https://vip.ytjcok.org/#/register?code=qPHQtI9a) 当前信息。
+> **评测整理时间**：2026年11月3日 · 价格和优惠码可能调整，下单前请核对 [云图官网](https://super.yuntujc.cc/#/register?code=qPHQtI9a) 当前信息。
 
 **云图机场怎么样？** 一句话结论：云图是一家 **金融级专线** 的中高端机场，全 1 倍率、24H 高速、原生 IP 全解锁，25 元 150G 起步，适合看重稳定性和解锁能力、愿意为专线付费的重度与工作用户。
 
@@ -35,7 +35,7 @@ faq:
 
 ## 怎么买和使用
 
-1. 打开 [云图官网](https://vip.ytjcok.org/#/register?code=qPHQtI9a) 注册，下单时填八折码 `yt88`
+1. 打开 [云图官网](https://super.yuntujc.cc/#/register?code=qPHQtI9a) 注册，下单时填八折码 `yt88`
 2. 复制订阅链接导入客户端（[Clash Verge Rev](/2026/03/29/clash-verge-rev-tutorial/) / [Shadowrocket](/2026/08/25/shadowrocket-complete-guide-2026/)）
 3. 选节点开代理
 

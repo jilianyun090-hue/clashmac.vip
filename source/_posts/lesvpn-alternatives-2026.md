@@ -197,7 +197,7 @@ lesvpn在2020-2022年期间比较活跃，曾经是一些用户的选择。但�
 
 ### 🥈 替代方案2：云图（稳定性优先）
 
-**官网：** [立即注册](https://vip.ytjcok.org/#/register?code=qPHQtI9a)
+**官网：** [立即注册](https://super.yuntujc.cc/#/register?code=qPHQtI9a)
 
 **优惠码：** `yt88` 享8折
 
@@ -288,7 +288,7 @@ lesvpn在2020-2022年期间比较活跃，曾经是一些用户的选择。但�
 
 根据你的需求选择：
 - **预算有限** → [极连云](https://haozevpn.jlyvipaff.com/#/?code=6aTAi9bW)（8元起）
-- **追求稳定** → [云图](https://vip.ytjcok.org/#/register?code=qPHQtI9a)（25元，用码`yt88`打8折）
+- **追求稳定** → [云图](https://super.yuntujc.cc/#/register?code=qPHQtI9a)（25元，用码`yt88`打8折）
 - **长期使用** → [光年梯](https://gnt001.gntvipaff.cc/#/?code=j1ufpE44)（年付89元）
 
 ### 步骤2：获取新的订阅链接
@@ -402,7 +402,7 @@ lesvpn在2020-2022年期间比较活跃，曾经是一些用户的选择。但�
 **推荐替代方案：**
 
 🥇 **预算型用户** → [极连云](https://haozevpn.jlyvipaff.com/#/?code=6aTAi9bW)（8元起）  
-🥈 **稳定性优先** → [云图](https://vip.ytjcok.org/#/register?code=qPHQtI9a)（25元，码`yt88`打8折）  
+🥈 **稳定性优先** → [云图](https://super.yuntujc.cc/#/register?code=qPHQtI9a)（25元，码`yt88`打8折）  
 🥉 **长期使用** → [光年梯](https://gnt001.gntvipaff.cc/#/?code=j1ufpE44)（年付89元）
 
 **查看更多机场推荐：** [2026年机场推荐大全](/2026/02/20/airport-recommendations/)

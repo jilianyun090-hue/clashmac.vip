@@ -223,7 +223,7 @@ description: "2026性价比机场与便宜机场选择指南：从月均价格�
 
 #### 6. 云图 - 企业级稳定
 
-**官网：** [立即注册](https://vip.ytjcok.org/#/register?code=qPHQtI9a)
+**官网：** [立即注册](https://super.yuntujc.cc/#/register?code=qPHQtI9a)
 
 **优惠码：** `yt88` 享8折
 
@@ -490,7 +490,7 @@ description: "2026性价比机场与便宜机场选择指南：从月均价格�
 [立即注册](https://gnt001.gntvipaff.cc/#/?code=j1ufpE44)
 
 🥉 **云图** - 稳定性优先  
-[立即注册](https://vip.ytjcok.org/#/register?code=qPHQtI9a)（优惠码：`yt88`）
+[立即注册](https://super.yuntujc.cc/#/register?code=qPHQtI9a)（优惠码：`yt88`）
 
 ### 最佳组合方案
 

@@ -152,7 +152,7 @@ description: "2026年 IEPL 专线整改事件知识库：梳理广东电信相�
 - IEPL + BGP + 直连多线路架构
 - 单点故障不影响整体服务
 - 用户体验受影响较小
-- [云图官网](https://vip.ytjcok.org/#/register?code=qPHQtI9a)
+- [云图官网](https://super.yuntujc.cc/#/register?code=qPHQtI9a)
 
 ### 老牌稳定运营的机场
 
